@@ -1,5 +1,10 @@
 # More Blocks
 
+![Curseforge](https://img.shields.io/curseforge/dt/913483?logo=curseforge&label=&suffix=%20&style=for-the-badge&color=242629&labelColor=e04e14&logoColor=1c1c1c)
+![Modrinth](https://img.shields.io/modrinth/dt/more-blocks?logo=modrinth&label=&suffix=%20&style=for-the-badge&color=242629&labelColor=5ca424&logoColor=1c1c1c)
+![Version](https://img.shields.io/curseforge/v/913483?style=for-the-badge)
+![Game Versions](https://img.shields.io/curseforge/game-versions/913483?style=for-the-badge)
+
 Lot's More Blocks!
 
 ## Mod Data
@@ -9,7 +14,7 @@ Lot's More Blocks!
 | namespace | `moreblocks`  |
 | slug      | `more-blocks` |
 
-## Editions
+## Loaders
 
 - Bedrock
 - Data Pack
