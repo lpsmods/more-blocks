@@ -4,7 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [bedrock-1.7.0] (1.21.50) - 12/13/2024
+## [2.0.0] (1.26.12) - unreleased
+
+> ![NOTE]
+> This update changes block IDs and is uncompatible with previous versions. Please backup your world!
+
+### General
+
+- Requires Assets+ v2.0.1
+- Updated for Minecraft 1.26.12
+- Added compatibility with Vibrant Visuals.
+- Blocks can now be waterlogged.
+
+## [1.7.0] (1.21.50) - 12/13/2024
 
 ### General
 
@@ -59,7 +71,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Vertical Slab crafting table recipes now give you 6 items instead of 2.
 - Sandstone and Red Sandstone recipe now give the correct item.
 
-## [bedrock-1.6.0] (1.21.44) - 11/19/2024
+## [1.6.0] (1.21.44) - 11/19/2024
 
 ### General
 
@@ -71,7 +83,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Changed up stair hitboxes so you can use walls underneath to make a stair like hitbox.
 - Blocks from moress should get converted to moreblocks
 
-## [bedrock-1.5.0] () - 12/27/2023
+## [1.5.0] () - 12/27/2023
 
 ### General
 
@@ -79,7 +91,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Requires Assets+ v1.6.0
 - Added "Update 1.21" toggle in behavior pack settings.
 
-## [bedrock-1.4.0] () - 11-7-2023
+## [1.4.0] () - 11-7-2023
 
 ### General
 
@@ -88,7 +100,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - You can now place the layers up side down.
 - Mangrove, Slime, and Honey layers have custom models.
 
-## [bedrock-1.3.0] () - 5-22-2023
+## [1.3.0] () - 5-22-2023
 
 ### General
 
@@ -103,7 +115,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - You can now use a Stone Axe to unwax, and deoxidize copper
 
-## [bedrock-1.2.1] () - 7-11-2022
+## [1.2.1] () - 7-11-2022
 
 ### Fixes
 
@@ -112,7 +124,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [bedrock-1.2.0] () - 1-7-2022
+## [1.2.0] () - 1-7-2022
 
 ### Changes
 
@@ -134,7 +146,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [bedrock-1.1.0] () 6-14-2022
+## [1.1.0] () 6-14-2022
 
 ### General
 

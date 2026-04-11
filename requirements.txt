@@ -1,0 +1,2 @@
+mcaddon==1.0.0a1
+chevron==0.14.0

@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "name": "More Blocks Add-On",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "files.associations": {
+      "*.json": "jsonc",
+    },
+    "cSpell.words": ["cornerable"],
+  },
+}

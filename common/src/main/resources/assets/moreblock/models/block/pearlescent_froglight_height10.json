@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height10",
-    "textures": {
-        "side": "minecraft:block/pearlescent_froglight_side",
-        "end": "minecraft:block/pearlescent_froglight_top"
-    }
-}

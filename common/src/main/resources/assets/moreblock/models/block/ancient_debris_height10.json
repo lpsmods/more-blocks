@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height10",
-    "textures": {
-        "side": "minecraft:block/ancient_debris_top",
-        "end": "minecraft:block/ancient_debris_side"
-    }
-}

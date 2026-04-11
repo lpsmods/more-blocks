@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height6",
-    "textures": {
-        "side": "minecraft:block/sandstone",
-        "top": "minecraft:block/sandstone_top",
-        "bottom": "minecraft:block/sandstone_bottom"
-    }
-}

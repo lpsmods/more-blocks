@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height10",
-    "textures": {
-        "side": "minecraft:block/reinforced_deepslate_side",
-        "top": "minecraft:block/reinforced_deepslate_top",
-        "bottom": "minecraft:block/reinforced_deepslate_bottom"
-    }
-}

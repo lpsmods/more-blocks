@@ -1,6 +1,0 @@
-{
-    "parent": "moreblock:block/layer_all_height10",
-    "textures": {
-        "all": "minecraft:block/chiseled_red_sandstone"
-    }
-}

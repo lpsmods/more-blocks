@@ -1,0 +1,2151 @@
+{
+  "format_version": "1.17.1",
+  "lpsm_mb:redstone_lamp_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:brown_mushroom_block_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:brown_mushroom_block_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:brown_mushroom_block_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:red_mushroom_block_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:red_mushroom_block_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:red_mushroom_block_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:target_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:target_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:target_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:ancient_debris_stairs": {
+    "sound": "ancient_debris"
+  },
+  "lpsm_mb:ancient_debris_slab": {
+    "sound": "ancient_debris"
+  },
+  "lpsm_mb:ancient_debris_vertical_slab": {
+    "sound": "ancient_debris"
+  },
+  "lpsm_mb:quartz_ore_stairs": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:quartz_ore_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:quartz_ore_vertical_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:nether_gold_ore_stairs": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:nether_gold_ore_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:nether_gold_ore_vertical_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:mud_stairs": {
+    "sound": "mud"
+  },
+  "lpsm_mb:mud_slab": {
+    "sound": "mud"
+  },
+  "lpsm_mb:mud_vertical_slab": {
+    "sound": "mud"
+  },
+  "lpsm_mb:basalt_stairs": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:basalt_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:basalt_vertical_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:polished_basalt_stairs": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:polished_basalt_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:polished_basalt_vertical_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:smooth_basalt_stairs": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:smooth_basalt_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:smooth_basalt_vertical_slab": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:pale_moss_block_stairs": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:pale_moss_block_slab": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:pale_moss_block_vertical_slab": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:moss_block_stairs": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:moss_block_slab": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:moss_block_vertical_slab": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:packed_mud_stairs": {
+    "sound": "packed_mud"
+  },
+  "lpsm_mb:packed_mud_slab": {
+    "sound": "packed_mud"
+  },
+  "lpsm_mb:packed_mud_vertical_slab": {
+    "sound": "packed_mud"
+  },
+  "lpsm_mb:mud_brick_vertical_slab": {
+    "sound": "mud_bricks"
+  },
+  "lpsm_mb:deepslate_tiles_vertical_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_tiles_stairs": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_tiles_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_tiles_vertical_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_brick_vertical_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_brick_stairs": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_brick_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_brick_vertical_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cobbled_deepslate_vertical_slab": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:dried_kelp_block_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dried_kelp_block_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dried_kelp_block_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_copper_stairs": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_copper_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_cut_copper_vertical_slab": {
+    "sound": "copper"
+  },
+  "lpsm_mb:nether_brick_vertical_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:bone_block_stairs": {
+    "sound": "bone_block"
+  },
+  "lpsm_mb:bone_block_slab": {
+    "sound": "bone_block"
+  },
+  "lpsm_mb:bone_block_vertical_slab": {
+    "sound": "bone_block"
+  },
+  "lpsm_mb:red_nether_brick_vertical_slab": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:netherite_block_stairs": {
+    "sound": "netherite"
+  },
+  "lpsm_mb:netherite_block_slab": {
+    "sound": "netherite"
+  },
+  "lpsm_mb:netherite_block_vertical_slab": {
+    "sound": "netherite"
+  },
+  "lpsm_mb:oak_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:mangrove_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:bamboo_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:crimson_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:azalea_leaves_stairs": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:azalea_leaves_slab": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:azalea_leaves_vertical_slab": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:flowering_azalea_leaves_stairs": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:flowering_azalea_leaves_slab": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:flowering_azalea_leaves_vertical_slab": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:oak_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:oak_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:oak_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:pale_oak_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:pale_oak_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:pale_oak_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:spruce_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:spruce_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:spruce_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:birch_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:birch_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:birch_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:jungle_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:jungle_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:jungle_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:acacia_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:acacia_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:acacia_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dark_oak_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dark_oak_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dark_oak_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:mangrove_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:mangrove_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:mangrove_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:oak_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:oak_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:oak_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:mangrove_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:mangrove_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:mangrove_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:crimson_stem_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_stem_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_stem_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:warped_stem_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:warped_stem_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:warped_stem_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:bamboo_block_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:bamboo_block_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:bamboo_block_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_bamboo_block_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_bamboo_block_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_bamboo_block_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:bamboo_mosaic_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_leaves_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:cherry_leaves_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:cherry_leaves_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:cherry_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:white_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:orange_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:magenta_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_blue_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:yellow_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:lime_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:pink_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:gray_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_gray_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:cyan_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:purple_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:blue_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:brown_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:green_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:red_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:black_concrete_powder_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:white_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:orange_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:magenta_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_blue_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:yellow_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:lime_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:pink_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:gray_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_gray_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:cyan_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:purple_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:blue_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:brown_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:green_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:red_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:black_concrete_powder_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:white_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:orange_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:magenta_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_blue_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:yellow_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:lime_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:pink_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:gray_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_gray_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:cyan_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:purple_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:blue_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:brown_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:green_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:red_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:black_concrete_powder_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:honeycomb_block_slab": {
+    "sound": "coral"
+  },
+  "lpsm_mb:clay_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:clay_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:sea_lantern_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:hay_block_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:hay_block_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:hay_block_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:nether_wart_block_slab": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:warped_wart_block_slab": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:grass_block_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:gravel_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:ice_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:packed_ice_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_ice_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:sponge_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:wet_sponge_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:slime_block_slab": {
+    "sound": "slime"
+  },
+  "lpsm_mb:honey_block_slab": {
+    "sound": "honey_block"
+  },
+  "lpsm_mb:shroomlight_slab": {
+    "sound": "shroomlight"
+  },
+  "lpsm_mb:redstone_lamp_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:glowstone_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tnt_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:farmland_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:dirt_path_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:stripped_oak_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_acacia_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_birch_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_dark_oak_log_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_jungle_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_spruce_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_warped_hyphae_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_crimson_hyphae_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:oak_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_wood_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_hyphae_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_hyphae_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:dirt_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:coarse_dirt_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:crimson_nylium_slab": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:warped_nylium_slab": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:podzol_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mycelium_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:netherrack_slab": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:red_sand_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:sand_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:snow_slab": {
+    "sound": "snow"
+  },
+  "lpsm_mb:soul_sand_slab": {
+    "sound": "soul_sand"
+  },
+  "lpsm_mb:soul_soil_slab": {
+    "sound": "soul_soil"
+  },
+  "lpsm_mb:white_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:orange_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:magenta_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_blue_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:yellow_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:lime_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:pink_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:gray_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_gray_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:cyan_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:purple_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:blue_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:brown_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:green_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:red_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:black_wool_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tinted_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:black_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:brown_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:cyan_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:gray_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:green_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_blue_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_gray_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:lime_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:magenta_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:orange_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:pink_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:purple_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:red_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:white_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:yellow_stained_glass_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:clay_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:sea_lantern_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:nether_wart_block_stairs": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:warped_wart_block_stairs": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:grass_block_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:gravel_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:ice_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:packed_ice_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_ice_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:sponge_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:wet_sponge_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:slime_block_stairs": {
+    "sound": "slime"
+  },
+  "lpsm_mb:honey_block_stairs": {
+    "sound": "honey_block"
+  },
+  "lpsm_mb:shroomlight_stairs": {
+    "sound": "shroomlight"
+  },
+  "lpsm_mb:redstone_lamp_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:glowstone_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tnt_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:farmland_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:dirt_path_stairs": {
+    "sound": "grass"
+  },
+  "lpsm_mb:stripped_oak_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_acacia_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_birch_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_dark_oak_log_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_jungle_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_spruce_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_warped_hyphae_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_crimson_hyphae_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:oak_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_wood_stairs": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_hyphae_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_hyphae_stairs": {
+    "sound": "stem"
+  },
+  "lpsm_mb:dirt_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:coarse_dirt_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:crimson_nylium_stairs": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:warped_nylium_stairs": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:podzol_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mycelium_stairs": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:netherrack_stairs": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:red_sand_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:sand_stairs": {
+    "sound": "sand"
+  },
+  "lpsm_mb:snow_stairs": {
+    "sound": "snow"
+  },
+  "lpsm_mb:soul_sand_stairs": {
+    "sound": "soul_sand"
+  },
+  "lpsm_mb:soul_soil_stairs": {
+    "sound": "soul_soil"
+  },
+  "lpsm_mb:white_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:orange_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:magenta_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_blue_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:yellow_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:lime_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:pink_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:gray_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_gray_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:cyan_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:purple_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:blue_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:brown_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:green_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:red_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:black_wool_stairs": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tinted_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:black_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:brown_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:cyan_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:gray_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:green_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_blue_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_gray_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:lime_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:magenta_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:orange_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:pink_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:purple_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:red_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:white_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:yellow_stained_glass_stairs": {
+    "sound": "glass"
+  },
+  "lpsm_mb:honeycomb_block_vertical_slab": {
+    "sound": "coral"
+  },
+  "lpsm_mb:sea_lantern_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:nether_wart_block_vertical_slab": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:warped_wart_block_vertical_slab": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:grass_block_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:gravel_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:ice_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:packed_ice_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_ice_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:sponge_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:wet_sponge_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:slime_block_vertical_slab": {
+    "sound": "slime"
+  },
+  "lpsm_mb:honey_block_vertical_slab": {
+    "sound": "honey_block"
+  },
+  "lpsm_mb:shroomlight_vertical_slab": {
+    "sound": "shroomlight"
+  },
+  "lpsm_mb:redstone_lamp_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:glowstone_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tnt_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:farmland_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:dirt_path_vertical_slab": {
+    "sound": "grass"
+  },
+  "lpsm_mb:stripped_oak_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_acacia_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_birch_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_dark_oak_log_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_jungle_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_spruce_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_warped_hyphae_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_crimson_hyphae_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:oak_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_wood_vertical_slab": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_hyphae_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_hyphae_vertical_slab": {
+    "sound": "stem"
+  },
+  "lpsm_mb:dirt_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:coarse_dirt_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:crimson_nylium_vertical_slab": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:warped_nylium_vertical_slab": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:podzol_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mycelium_vertical_slab": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:netherrack_vertical_slab": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:red_sand_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:sand_vertical_slab": {
+    "sound": "sand"
+  },
+  "lpsm_mb:snow_vertical_slab": {
+    "sound": "snow"
+  },
+  "lpsm_mb:soul_sand_vertical_slab": {
+    "sound": "soul_sand"
+  },
+  "lpsm_mb:soul_soil_vertical_slab": {
+    "sound": "soul_soil"
+  },
+  "lpsm_mb:white_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:orange_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:magenta_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_blue_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:yellow_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:lime_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:pink_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:gray_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_gray_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:cyan_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:purple_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:blue_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:brown_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:green_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:red_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:black_wool_vertical_slab": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:tinted_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:black_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:brown_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:cyan_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:gray_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:green_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_blue_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_gray_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:lime_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:magenta_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:orange_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:pink_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:purple_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:red_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:white_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:yellow_stained_glass_vertical_slab": {
+    "sound": "glass"
+  },
+  "lpsm_mb:chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_chiseled_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_oxidized_copper_grate_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:cherry_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_cherry_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:cherry_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:bamboo_layer": {
+    "sound": "bamboo"
+  },
+  "lpsm_mb:bamboo_mosaic_layer": {
+    "sound": "bamboo"
+  },
+  "lpsm_mb:bamboo_block_layer": {
+    "sound": "bamboo"
+  },
+  "lpsm_mb:stripped_bamboo_block_layer": {
+    "sound": "bamboo"
+  },
+  "lpsm_mb:diamond_block_layer": {
+    "sound": "metal"
+  },
+  "lpsm_mb:gold_block_layer": {
+    "sound": "metal"
+  },
+  "lpsm_mb:iron_block_layer": {
+    "sound": "metal"
+  },
+  "lpsm_mb:emerald_block_layer": {
+    "sound": "metal"
+  },
+  "lpsm_mb:netherite_block_layer": {
+    "sound": "netherite"
+  },
+  "lpsm_mb:smooth_basalt_layer": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:amethyst_block_layer": {
+    "sound": "amethyst_block"
+  },
+  "lpsm_mb:dripstone_block_layer": {
+    "sound": "dripstone_block"
+  },
+  "lpsm_mb:netherrack_layer": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:soul_sand_layer": {
+    "sound": "soul_sand"
+  },
+  "lpsm_mb:tuff_layer": {
+    "sound": "tuff"
+  },
+  "lpsm_mb:chiseled_tuff_layer": {
+    "sound": "tuff"
+  },
+  "lpsm_mb:tuff_brick_layer": {
+    "sound": "tuff"
+  },
+  "lpsm_mb:chiseled_tuff_brick_layer": {
+    "sound": "tuff"
+  },
+  "lpsm_mb:polished_tuff_layer": {
+    "sound": "tuff"
+  },
+  "lpsm_mb:calcite_layer": {
+    "sound": "calcite"
+  },
+  "lpsm_mb:soul_soil_layer": {
+    "sound": "soul_soil"
+  },
+  "lpsm_mb:black_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:blue_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:brown_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:cyan_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:gray_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:green_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_blue_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:light_gray_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:lime_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:magenta_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:orange_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:pink_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:purple_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:red_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:white_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:yellow_wool_layer": {
+    "sound": "cloth"
+  },
+  "lpsm_mb:tinted_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:black_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:brown_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:cyan_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:gray_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:green_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_blue_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:light_gray_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:lime_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:magenta_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:orange_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:pink_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:purple_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:red_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:white_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:yellow_stained_glass_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:mangrove_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:crimson_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:oak_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:mangrove_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:oak_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_stem_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_stem_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:mangrove_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:acacia_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:birch_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:dark_oak_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:jungle_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:oak_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:pale_oak_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:spruce_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:warped_hyphae_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:crimson_hyphae_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_mangrove_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_acacia_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_birch_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_dark_oak_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_jungle_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_oak_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_spruce_log_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_warped_stem_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_crimson_stem_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_mangrove_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_acacia_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_birch_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_dark_oak_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_jungle_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_oak_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_spruce_wood_layer": {
+    "sound": "wood"
+  },
+  "lpsm_mb:stripped_warped_hyphae_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:stripped_crimson_hyphae_layer": {
+    "sound": "stem"
+  },
+  "lpsm_mb:copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:exposed_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:weathered_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:oxidized_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_exposed_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:waxed_weathered_cut_copper_layer": {
+    "sound": "copper"
+  },
+  "lpsm_mb:clay_block_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:cobbled_deepslate_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:cracked_deepslate_brick_layer": {
+    "sound": "deepslate_bricks"
+  },
+  "lpsm_mb:cracked_deepslate_tile_layer": {
+    "sound": "deepslate_bricks"
+  },
+  "lpsm_mb:cracked_nether_brick_layer": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:deepslate_brick_layer": {
+    "sound": "deepslate_bricks"
+  },
+  "lpsm_mb:deepslate_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_tile_layer": {
+    "sound": "deepslate_bricks"
+  },
+  "lpsm_mb:honeycomb_block_layer": {
+    "sound": "coral"
+  },
+  "lpsm_mb:nether_brick_block_layer": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:polished_deepslate_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:red_nether_brick_layer": {
+    "sound": "nether_brick"
+  },
+  "lpsm_mb:dried_kelp_block_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:slime_block_layer": {
+    "sound": "slime"
+  },
+  "lpsm_mb:honey_block_layer": {
+    "sound": "honey_block"
+  },
+  "lpsm_mb:hay_block_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:bone_block_layer": {
+    "sound": "bone_block"
+  },
+  "lpsm_mb:packed_mud_layer": {
+    "sound": "packed_mud"
+  },
+  "lpsm_mb:mud_brick_layer": {
+    "sound": "mud_bricks"
+  },
+  "lpsm_mb:chiseled_deepslate_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:glowstone_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:target_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:nether_wart_block_layer": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:warped_wart_block_layer": {
+    "sound": "nether_wart"
+  },
+  "lpsm_mb:shroomlight_layer": {
+    "sound": "shroomlight"
+  },
+  "lpsm_mb:crimson_nylium_layer": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:warped_nylium_layer": {
+    "sound": "nylium"
+  },
+  "lpsm_mb:basalt_layer": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:polished_basalt_layer": {
+    "sound": "basalt"
+  },
+  "lpsm_mb:dirt_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:coarse_dirt_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:grass_block_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dirt_path_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:podzol_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mycelium_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mud_layer": {
+    "sound": "mud"
+  },
+  "lpsm_mb:gravel_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:nether_quartz_ore_layer": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:nether_gold_ore_layer": {
+    "sound": "netherrack"
+  },
+  "lpsm_mb:ancient_debris_layer": {
+    "sound": "ancient_debris"
+  },
+  "lpsm_mb:deepslate_iron_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_gold_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_diamond_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_lapis_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_redstone_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_emerald_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_coal_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:deepslate_copper_ore_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:sand_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:red_sand_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:oak_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:pale_oak_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:spruce_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:birch_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:jungle_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:acacia_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:dark_oak_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:mangrove_leaves_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:azalea_leaves_layer": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:flowering_azalea_leaves_layer": {
+    "sound": "azalea_leaves"
+  },
+  "lpsm_mb:ice_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:packed_ice_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:blue_ice_layer": {
+    "sound": "glass"
+  },
+  "lpsm_mb:moss_layer": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:pale_moss_layer": {
+    "sound": "moss_block"
+  },
+  "lpsm_mb:rooted_dirt_layer": {
+    "sound": "gravel"
+  },
+  "lpsm_mb:mangrove_roots_layer": {
+    "sound": "mangrove_roots"
+  },
+  "lpsm_mb:muddy_mangrove_roots_layer": {
+    "sound": "muddy_mangrove_roots"
+  },
+  "lpsm_mb:budding_amethyst_layer": {
+    "sound": "amethyst_block"
+  },
+  "lpsm_mb:pearlescent_froglight_layer": {
+    "sound": "froglight"
+  },
+  "lpsm_mb:verdant_froglight_layer": {
+    "sound": "froglight"
+  },
+  "lpsm_mb:ochre_froglight_layer": {
+    "sound": "froglight"
+  },
+  "lpsm_mb:sponge_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:wet_sponge_layer": {
+    "sound": "grass"
+  },
+  "lpsm_mb:sculk_layer": {
+    "sound": "sculk"
+  },
+  "lpsm_mb:sculk_catalyst_layer": {
+    "sound": "sculk_catalyst"
+  },
+  "lpsm_mb:reinforced_deepslate_layer": {
+    "sound": "deepslate"
+  },
+  "lpsm_mb:white_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:orange_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:magenta_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_blue_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:yellow_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:lime_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:pink_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:light_gray_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:gray_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:cyan_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:purple_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:blue_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:brown_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:green_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:red_concrete_powder_layer": {
+    "sound": "sand"
+  },
+  "lpsm_mb:black_concrete_powder_layer": {
+    "sound": "sand"
+  }
+}

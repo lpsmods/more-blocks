@@ -1,0 +1,110 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lpsm_mb:cyan_concrete_slab",
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      },
+      "states": {
+        "lpsm_mb:double": [false, true]
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      }
+    },
+    "components": {
+      "minecraft:light_dampening": 0,
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "stops_liquid_flowing_from_direction": ["down"]
+          }
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:cyan_concrete"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.lpsm_assetsplus_slab",
+        "bone_visibility": {
+          "top": "q.block_state('minecraft:vertical_half')=='top'",
+          "bottom": "q.block_state('minecraft:vertical_half')=='bottom'"
+        },
+        "culling": "lpsm_assetsplus:slab"
+      },
+      "lpsm_mb:slab": {
+        "double_state": "lpsm_mb:double"
+      },
+      "tag:minecraft:slab": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('lpsm_mb:double')",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/cyan_concrete_double_slab.json",
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": false,
+                "liquid_type": "water"
+              }
+            ]
+          },
+          "minecraft:selection_box": true,
+          "minecraft:collision_box": true
+        }
+      },
+      {
+        "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='top'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8.0, 8.0, -8.0],
+            "size": [16.0, 8.0, 16.0]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8.0, 8.0, -8.0],
+            "size": [16.0, 8.0, 16.0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["up"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='bottom'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8.0, 0.0, -8.0],
+            "size": [16.0, 8.0, 16.0]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8.0, 0.0, -8.0],
+            "size": [16.0, 8.0, 16.0]
+          }
+        }
+      }
+    ]
+  }
+}

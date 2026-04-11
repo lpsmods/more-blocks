@@ -1,0 +1,138 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lpsm_mb:stripped_crimson_hyphae_vertical_slab",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      },
+      "states": {
+        "lpsm_mb:double": [false, true]
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "lpsm_mb:itemGroup.name.verticalSlab"
+      }
+    },
+    "components": {
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:stripped_crimson_stem_side"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.lpsm_assetsplus_vertical_slab",
+        "culling": "lpsm_assetsplus:vertical_slab"
+      },
+      "minecraft:collision_box": {
+        "origin": [-8.0, 0.0, 0.0],
+        "size": [16.0, 16.0, 8.0]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8.0, 0.0, 0.0],
+        "size": [16.0, 16.0, 8.0]
+      },
+      "lpsm_mb:vertical_slab": {
+        "double_state": "lpsm_mb:double"
+      },
+      "tag:minecraft:slab": {},
+      "tag:minecraft:is_axe_item_destructible": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction')=='north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0.0, 180.0, 0.0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["north"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction')=='south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0.0, 0.0, 0.0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["south"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction')=='east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0.0, 90.0, 0.0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["east"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction')=='west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0.0, -90.0, 0.0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["west"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:double')",
+        "components": {
+          "minecraft:collision_box": true,
+          "minecraft:selection_box": true,
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/stripped_crimson_hyphae_double_vertical_slab.json",
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": false,
+                "liquid_type": "water"
+              }
+            ]
+          },
+          "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+      }
+    ]
+  }
+}

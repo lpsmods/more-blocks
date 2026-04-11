@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height2",
-    "textures": {
-        "side": "minecraft:block/cherry_log",
-        "end": "minecraft:block/cherry_log_top"
-    }
-}

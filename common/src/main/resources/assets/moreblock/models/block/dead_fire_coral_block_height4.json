@@ -1,6 +1,0 @@
-{
-    "parent": "moreblock:block/layer_all_height4",
-    "textures": {
-        "all": "minecraft:block/dead_fire_coral_block"
-    }
-}

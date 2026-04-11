@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lpsm_mb:falling_block",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "lpsm_mb:despawn": { "minecraft:instant_despawn": {} }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["static", "falling_block", "inanimate"]
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:collision_box": { "width": 1.0, "height": 1.0 },
+      "minecraft:persistent": {},
+      "minecraft:damage_sensor": { "triggers": [{ "deals_damage": "no" }] },
+      "minecraft:physics": { "has_gravity": true, "has_collision": true },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:knockback_resistance": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": false,
+        "always_show": false
+      }
+    },
+    "events": {
+      "lpsm_mb:despawn": { "add": { "component_groups": ["lpsm_mb:despawn"] } }
+    }
+  }
+}

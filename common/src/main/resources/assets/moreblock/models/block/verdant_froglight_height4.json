@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height4",
-    "textures": {
-        "side": "minecraft:block/verdant_froglight_side",
-        "end": "minecraft:block/verdant_froglight_top"
-    }
-}

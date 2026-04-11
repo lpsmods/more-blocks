@@ -1,0 +1,194 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lpsm_mb:waxed_oxidized_copper_layer",
+      "states": {
+        "lpsm_mb:layers": [1, 2, 3, 4, 5, 6, 7, 8]
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "lpsm_mb:itemGroup.name.layer"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:light_dampening": 0,
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "stops_liquid_flowing_from_direction": ["down"]
+          }
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.2
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.lpsm_assetsplus.layer",
+        "bone_visibility": {
+          "layer_1": "q.block_state('lpsm_mb:layers')==1",
+          "layer_2": "q.block_state('lpsm_mb:layers')==2",
+          "layer_3": "q.block_state('lpsm_mb:layers')==3",
+          "layer_4": "q.block_state('lpsm_mb:layers')==4",
+          "layer_5": "q.block_state('lpsm_mb:layers')==5",
+          "layer_6": "q.block_state('lpsm_mb:layers')==6",
+          "layer_7": "q.block_state('lpsm_mb:layers')==7"
+        },
+        "culling": "lpsm_assetsplus:layer"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:oxidized_copper",
+          "render_method": "alpha_test"
+        }
+      },
+      "lpsm_mb:height": {
+        "layers_state": "lpsm_mb:layers"
+      },
+      "tag:metal": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half')=='top'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [180, 0, 0]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "liquid_type": "water",
+                "stops_liquid_flowing_from_direction": ["up"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==1",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer1.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 2, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 2, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==2",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer2.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 4, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 4, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==3",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer3.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 6, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 6, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==4",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer4.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==5",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer5.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 10, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 10, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==6",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer6.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 12, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 12, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==7",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer7.json",
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 14, 16]
+          },
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 14, 16]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('lpsm_mb:layers')==8",
+        "components": {
+          "minecraft:loot": "loot_tables/lpsm/mb/blocks/waxed_oxidized_copper_layer8.json",
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": false,
+                "liquid_type": "water"
+              }
+            ]
+          },
+          "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+      }
+    ]
+  }
+}

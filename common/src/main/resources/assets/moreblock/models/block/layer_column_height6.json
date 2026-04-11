@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height6",
-    "textures": {
-        "particle": "#side",
-        "bottom": "#end",
-        "top": "#end"
-    }
-}
