@@ -1,11 +1,29 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:farmland_layer",
       "states": {
-        "lpsm_mb:layers": [1, 2, 3, 4, 5, 6, 7, 8],
-        "lpsm_mb:moisture": [0, 1, 2, 3, 4, 5, 6, 7]
+        "lpsm_mb:layers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "lpsm_mb:moisture": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -13,7 +31,9 @@
       },
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       }
     },
@@ -24,7 +44,9 @@
           {
             "can_contain_liquid": true,
             "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "stops_liquid_flowing_from_direction": [
+              "down"
+            ]
           }
         ]
       },
@@ -44,7 +66,8 @@
           "layer_5": "q.block_state('lpsm_mb:layers')==5",
           "layer_6": "q.block_state('lpsm_mb:layers')==6",
           "layer_7": "q.block_state('lpsm_mb:layers')==7"
-        }
+        },
+        "culling": "lpsm_assetsplus:layer"
       },
       "minecraft:material_instances": {
         "*": {
@@ -56,12 +79,16 @@
       },
       "minecraft:tick": {
         "looping": true,
-        "interval_range": [0, 0]
+        "interval_range": [
+          0,
+          0
+        ]
       },
       "lpsm_mb:height": {
         "layers_state": "lpsm_mb:layers"
       },
       "lpsm_mb:farmland": {},
+      "tag:lpsm_mb:layer": {},
       "tag:dirt": {},
       "tag:minecraft:is_shovel_item_destructible": {}
     },
@@ -70,14 +97,20 @@
         "condition": "q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [180, 0, 0]
+            "rotation": [
+              180,
+              0,
+              0
+            ]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": ["up"]
+                "stops_liquid_flowing_from_direction": [
+                  "up"
+                ]
               }
             ]
           }
@@ -88,12 +121,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer1.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              1,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              1,
+              16
+            ]
           }
         }
       },
@@ -102,12 +151,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer2.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 3, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              3,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 3, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              3,
+              16
+            ]
           }
         }
       },
@@ -116,12 +181,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer3.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 5, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              5,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 5, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              5,
+              16
+            ]
           }
         }
       },
@@ -130,12 +211,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer4.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 7, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              7,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 7, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              7,
+              16
+            ]
           }
         }
       },
@@ -144,12 +241,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer5.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 9, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              9,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 9, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              9,
+              16
+            ]
           }
         }
       },
@@ -158,12 +271,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer6.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 11, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              11,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 11, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              11,
+              16
+            ]
           }
         }
       },
@@ -172,12 +301,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_layer7.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 13, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              13,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 13, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              13,
+              16
+            ]
           }
         }
       },
@@ -193,14 +338,33 @@
               }
             ]
           },
-          "minecraft:geometry": "geometry.lpsm_mb.block_15",
+          "minecraft:geometry": {
+            "identifier": "geometry.lpsm_mb.block_15",
+            "culling": "lpsm_mb:block_15"
+          },
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 15, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              15,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 15, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              15,
+              16
+            ]
           }
         }
       },

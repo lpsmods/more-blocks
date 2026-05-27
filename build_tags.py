@@ -24,6 +24,8 @@ for fn in glob.glob(f'{BLOCKS_PATH}/**/*.json'):
         block = commentjson.load(fd)
 
     id = block['minecraft:block']['description']['identifier']
+    name = id.replace(f"{PROJECT_ID}:", "")
+    material = name.replace("_vertical_slab", "").replace("_slab", "").replace("_stairs", "").replace("_layer", "")
     components = block['minecraft:block']['components']
 
     # Remove tags
@@ -39,8 +41,14 @@ for fn in glob.glob(f'{BLOCKS_PATH}/**/*.json'):
     if id.endswith("_stairs"):
         components["tag:minecraft:cornerable_stairs"] = {}
         
-    if id.endswith("_slab"):
+    if id.endswith("_slab") and "vertical_slab" not in id:
         components["tag:minecraft:slab"] = {}
+        
+    if id.endswith("_vertical_slab"):
+        components["tag:lpsm_mb:vertical_slab"] = {}
+        
+    if id.endswith("layer"):
+        components["tag:lpsm_mb:layer"] = {}
 
     if anyOf('dirt', 'farmland', 'grass_block', 'moss_block', 'mycelium', 'podzol'):
         components["tag:dirt"] = {}
@@ -98,7 +106,9 @@ for fn in glob.glob(f'{BLOCKS_PATH}/**/*.json'):
     if anyOf(*WOOD_TYPES):
         if 'leaves' in id:
             components["tag:is_hoe_item_destructible"] = {}
+            components["minecraft:flammable"] = {}
         else:
+            components["minecraft:flammable"] = {}
             components["tag:wood"] = {}
             components["tag:is_axe_item_destructible"] = {}
 
@@ -107,6 +117,20 @@ for fn in glob.glob(f'{BLOCKS_PATH}/**/*.json'):
     for wood in WOOD_TYPES:
         if f"{wood}_log" in id:
             components[f"tag:{wood}"] = {}
+
+    # Essentials
+
+    if '_ore' in id:
+        group = material.replace('_ore', "")
+        components[f"tag:ulkd_ess:ore_{group}"] = {}
+
+    if '_leaves' in id:
+        group = material.replace('_leaves', "")
+        components[f"tag:ulkd_ess:tree_leaves_{group}"] = {}
+
+    if '_log' in id:
+        group = material.replace('_log', "")
+        components[f"tag:ulkd_ess:tree_log_{group}"] = {}
 
     # Validate that it has a item_destructible tag
     ignore = ['bedrock', 'honeycomb', 'honey', 'slime', 'froglight']

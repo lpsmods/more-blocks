@@ -1,0 +1,16 @@
+{
+  "format_version": "1.26.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "lpsm_mb:dry_sponge_slab"
+    },
+    "unlock": [
+      {
+        "item": "lpsm_mb:sponge_slab"
+      }
+    ],
+    "tags": ["furnace"],
+    "input": "lpsm_mb:wet_sponge_slab",
+    "output": "lpsm_mb:sponge_slab"
+  }
+}

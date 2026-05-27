@@ -4,6 +4,62 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
+    "lpsm_mb:glass": { "textures": "textures/lpsm/mb/blocks/glass.png" },
+    "lpsm_mb:black_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/black_stained_glass.png"
+    },
+    "lpsm_mb:blue_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/blue_stained_glass.png"
+    },
+    "lpsm_mb:brown_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/brown_stained_glass.png"
+    },
+    "lpsm_mb:cyan_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/cyan_stained_glass.png"
+    },
+    "lpsm_mb:gray_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/gray_stained_glass.png"
+    },
+    "lpsm_mb:green_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/green_stained_glass.png"
+    },
+    "lpsm_mb:light_blue_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/light_blue_stained_glass.png"
+    },
+    "lpsm_mb:light_gray_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/light_gray_stained_glass.png"
+    },
+    "lpsm_mb:lime_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/lime_stained_glass.png"
+    },
+    "lpsm_mb:magenta_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/magenta_stained_glass.png"
+    },
+    "lpsm_mb:orange_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/orange_stained_glass.png"
+    },
+    "lpsm_mb:pink_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/pink_stained_glass.png"
+    },
+    "lpsm_mb:purple_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/purple_stained_glass.png"
+    },
+    "lpsm_mb:red_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/red_stained_glass.png"
+    },
+    "lpsm_mb:sea_lantern": {
+      "textures": "textures/lpsm/mb/blocks/sea_lantern.png"
+    },
+    "lpsm_mb:tinted_glass": {
+      "textures": "textures/lpsm/mb/blocks/tinted_glass.png"
+    },
+    "lpsm_mb:white_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/white_stained_glass.png"
+    },
+    "lpsm_mb:yellow_stained_glass": {
+      "textures": "textures/lpsm/mb/blocks/yellow_stained_glass.png"
+    },
+    // Old
     "lpsm_mb:glass_layer_side1": {
       "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side1.png"
     },
@@ -381,423 +437,6 @@
     },
     "lpsm_mb:yellow_stained_glass_layer_side7": {
       "textures": "textures/lpsm/mb/blocks/layers/yellow_stained_glass_layer_side7.png"
-    },
-    "lpsm_mb:grass_block_inner_stairs": {
-      "textures": {
-        "overlay_color": "#79c05a",
-        "path": "textures/lpsm/mb/blocks/stairs/grass_block_inner_stairs.tga"
-      }
-    },
-    "lpsm_mb:grass_block_outer_stairs": {
-      "textures": {
-        "overlay_color": "#79c05a",
-        "path": "textures/lpsm/mb/blocks/stairs/grass_block_outer_stairs.tga"
-      }
-    },
-    "lpsm_mb:grass_block_stairs": {
-      "textures": {
-        "overlay_color": "#79c05a",
-        "path": "textures/lpsm/mb/blocks/stairs/grass_block_stairs.tga"
-      }
-    },
-    "lpsm_mb:grass_block_snow_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_block_snow_inner_stairs.png"
-    },
-    "lpsm_mb:grass_block_snow_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_block_snow_outer_stairs.png"
-    },
-    "lpsm_mb:grass_block_snow_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_block_snow_stairs.png"
-    },
-    "lpsm_mb:farmland_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_inner_stairs.png"
-    },
-    "lpsm_mb:farmland_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_outer_stairs.png"
-    },
-    "lpsm_mb:farmland_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_stairs.png"
-    },
-    "lpsm_mb:farmland_wet_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_wet_inner_stairs.png"
-    },
-    "lpsm_mb:farmland_wet_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_wet_outer_stairs.png"
-    },
-    "lpsm_mb:farmland_wet_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/farmland_wet_stairs.png"
-    },
-    "lpsm_mb:grass_path_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_path_inner_stairs.png"
-    },
-    "lpsm_mb:grass_path_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_path_outer_stairs.png"
-    },
-    "lpsm_mb:grass_path_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/grass_path_stairs.png"
-    },
-    "lpsm_mb:crimson_nylium_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/crimson_nylium_inner_stairs.png"
-    },
-    "lpsm_mb:crimson_nylium_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/crimson_nylium_outer_stairs.png"
-    },
-    "lpsm_mb:crimson_nylium_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/crimson_nylium_stairs.png"
-    },
-    "lpsm_mb:warped_nylium_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/warped_nylium_inner_stairs.png"
-    },
-    "lpsm_mb:warped_nylium_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/warped_nylium_outer_stairs.png"
-    },
-    "lpsm_mb:warped_nylium_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/warped_nylium_stairs.png"
-    },
-    "lpsm_mb:podzol_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/podzol_inner_stairs.png"
-    },
-    "lpsm_mb:podzol_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/podzol_outer_stairs.png"
-    },
-    "lpsm_mb:podzol_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/podzol_stairs.png"
-    },
-    "lpsm_mb:mycelium_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/mycelium_inner_stairs.png"
-    },
-    "lpsm_mb:mycelium_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/mycelium_outer_stairs.png"
-    },
-    "lpsm_mb:mycelium_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/mycelium_stairs.png"
-    },
-    "lpsm_mb:redstone_lamp_inner_stairs_off": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_inner_stairs_off.png"
-    },
-    "lpsm_mb:redstone_lamp_outer_stairs_off": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_outer_stairs_off.png"
-    },
-    "lpsm_mb:redstone_lamp_stairs_off": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_stairs_off.png"
-    },
-    "lpsm_mb:redstone_lamp_inner_stairs_on": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_inner_stairs_on.png"
-    },
-    "lpsm_mb:redstone_lamp_outer_stairs_on": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_outer_stairs_on.png"
-    },
-    "lpsm_mb:redstone_lamp_stairs_on": {
-      "textures": "textures/lpsm/mb/blocks/stairs/redstone_lamp_stairs_on.png"
-    },
-    "lpsm_mb:sea_lantern_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/sea_lantern_inner_stairs.png"
-    },
-    "lpsm_mb:sea_lantern_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/sea_lantern_outer_stairs.png"
-    },
-    "lpsm_mb:sea_lantern_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/sea_lantern_stairs.png"
-    },
-    "lpsm_mb:smooth_stone_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/smooth_stone_inner_stairs.png"
-    },
-    "lpsm_mb:smooth_stone_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/smooth_stone_outer_stairs.png"
-    },
-    "lpsm_mb:smooth_stone_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/smooth_stone_stairs.png"
-    },
-    "lpsm_mb:glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/glass_inner_stairs.png"
-    },
-    "lpsm_mb:glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/glass_outer_stairs.png"
-    },
-    "lpsm_mb:glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/glass_stairs.png"
-    },
-    "lpsm_mb:tinted_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/tinted_glass_inner_stairs.png"
-    },
-    "lpsm_mb:tinted_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/tinted_glass_outer_stairs.png"
-    },
-    "lpsm_mb:tinted_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/tinted_glass_stairs.png"
-    },
-    "lpsm_mb:black_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/black_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:black_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/black_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:black_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/black_stained_glass_stairs.png"
-    },
-    "lpsm_mb:blue_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/blue_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:blue_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/blue_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:blue_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/blue_stained_glass_stairs.png"
-    },
-    "lpsm_mb:brown_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/brown_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:brown_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/brown_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:brown_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/brown_stained_glass_stairs.png"
-    },
-    "lpsm_mb:cyan_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/cyan_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:cyan_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/cyan_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:cyan_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/cyan_stained_glass_stairs.png"
-    },
-    "lpsm_mb:gray_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/gray_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:gray_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/gray_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:gray_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/gray_stained_glass_stairs.png"
-    },
-    "lpsm_mb:green_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/green_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:green_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/green_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:green_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/green_stained_glass_stairs.png"
-    },
-    "lpsm_mb:light_blue_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_blue_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:light_blue_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_blue_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:light_blue_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_blue_stained_glass_stairs.png"
-    },
-    "lpsm_mb:light_gray_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_gray_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:light_gray_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_gray_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:light_gray_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/light_gray_stained_glass_stairs.png"
-    },
-    "lpsm_mb:magenta_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/magenta_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:magenta_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/magenta_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:magenta_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/magenta_stained_glass_stairs.png"
-    },
-    "lpsm_mb:orange_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/orange_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:orange_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/orange_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:orange_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/orange_stained_glass_stairs.png"
-    },
-    "lpsm_mb:pink_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/pink_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:pink_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/pink_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:pink_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/pink_stained_glass_stairs.png"
-    },
-    "lpsm_mb:purple_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/purple_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:purple_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/purple_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:purple_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/purple_stained_glass_stairs.png"
-    },
-    "lpsm_mb:red_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/red_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:red_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/red_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:red_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/red_stained_glass_stairs.png"
-    },
-    "lpsm_mb:white_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/white_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:white_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/white_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:white_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/white_stained_glass_stairs.png"
-    },
-    "lpsm_mb:yellow_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/yellow_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:yellow_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/yellow_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:yellow_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/yellow_stained_glass_stairs.png"
-    },
-    "lpsm_mb:lime_stained_glass_inner_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/lime_stained_glass_inner_stairs.png"
-    },
-    "lpsm_mb:lime_stained_glass_outer_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/lime_stained_glass_outer_stairs.png"
-    },
-    "lpsm_mb:lime_stained_glass_stairs": {
-      "textures": "textures/lpsm/mb/blocks/stairs/lime_stained_glass_stairs.png"
-    },
-    "lpsm_mb:redstone_lamp_half_on": {
-      "textures": "textures/lpsm/mb/blocks/slab/redstone_lamp_half_on.png"
-    },
-    "lpsm_mb:redstone_lamp_half_vertical_on": {
-      "textures": "textures/lpsm/mb/blocks/slab/redstone_lamp_half_vertical_on.png"
-    },
-    "lpsm_mb:redstone_lamp_half_off": {
-      "textures": "textures/lpsm/mb/blocks/slab/redstone_lamp_half_off.png"
-    },
-    "lpsm_mb:redstone_lamp_half_vertical_off": {
-      "textures": "textures/lpsm/mb/blocks/slab/redstone_lamp_half_vertical_off.png"
-    },
-    "lpsm_mb:sea_lantern_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/sea_lantern_half.png"
-    },
-    "lpsm_mb:sea_lantern_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/sea_lantern_half_vertical.png"
-    },
-    "lpsm_mb:smooth_stone_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/smooth_stone_half_vertical.png"
-    },
-    "lpsm_mb:glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/glass_half.png"
-    },
-    "lpsm_mb:tinted_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/tinted_glass_half.png"
-    },
-    "lpsm_mb:black_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/black_stained_glass_half.png"
-    },
-    "lpsm_mb:blue_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/blue_stained_glass_half.png"
-    },
-    "lpsm_mb:brown_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/brown_stained_glass_half.png"
-    },
-    "lpsm_mb:cyan_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/cyan_stained_glass_half.png"
-    },
-    "lpsm_mb:gray_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/gray_stained_glass_half.png"
-    },
-    "lpsm_mb:green_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/green_stained_glass_half.png"
-    },
-    "lpsm_mb:light_blue_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/light_blue_stained_glass_half.png"
-    },
-    "lpsm_mb:light_gray_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/light_gray_stained_glass_half.png"
-    },
-    "lpsm_mb:magenta_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/magenta_stained_glass_half.png"
-    },
-    "lpsm_mb:orange_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/orange_stained_glass_half.png"
-    },
-    "lpsm_mb:pink_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/pink_stained_glass_half.png"
-    },
-    "lpsm_mb:purple_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/purple_stained_glass_half.png"
-    },
-    "lpsm_mb:red_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/red_stained_glass_half.png"
-    },
-    "lpsm_mb:white_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/white_stained_glass_half.png"
-    },
-    "lpsm_mb:yellow_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/yellow_stained_glass_half.png"
-    },
-    "lpsm_mb:lime_stained_glass_half": {
-      "textures": "textures/lpsm/mb/blocks/slab/lime_stained_glass_half.png"
-    },
-    "lpsm_mb:glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/glass_half_vertical.png"
-    },
-    "lpsm_mb:tinted_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/tinted_glass_half_vertical.png"
-    },
-    "lpsm_mb:black_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/black_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:blue_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/blue_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:brown_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/brown_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:cyan_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/cyan_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:gray_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/gray_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:green_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/green_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:light_blue_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/light_blue_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:light_gray_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/light_gray_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:magenta_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/magenta_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:orange_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/orange_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:pink_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/pink_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:purple_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/purple_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:red_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/red_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:white_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/white_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:yellow_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/yellow_stained_glass_half_vertical.png"
-    },
-    "lpsm_mb:lime_stained_glass_half_vertical": {
-      "textures": "textures/lpsm/mb/blocks/slab/lime_stained_glass_half_vertical.png"
     }
   }
 }

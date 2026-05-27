@@ -1965,6 +1965,9 @@
   "lpsm_mb:grass_block_layer": {
     "sound": "grass"
   },
+  "lpsm_mb:farmland_layer": {
+    "sound": "gravel"
+  },
   "lpsm_mb:dirt_path_layer": {
     "sound": "gravel"
   },
@@ -2067,10 +2070,28 @@
   "lpsm_mb:rooted_dirt_layer": {
     "sound": "gravel"
   },
-  "lpsm_mb:mangrove_roots_layer": {
+  "lpsm_mb:mangrove_root_layer": {
     "sound": "mangrove_roots"
   },
-  "lpsm_mb:muddy_mangrove_roots_layer": {
+  "lpsm_mb:mangrove_root_stairs": {
+    "sound": "mangrove_roots"
+  },
+  "lpsm_mb:mangrove_root_slab": {
+    "sound": "mangrove_roots"
+  },
+  "lpsm_mb:mangrove_root_vertical_slab": {
+    "sound": "mangrove_roots"
+  },
+  "lpsm_mb:muddy_mangrove_root_layer": {
+    "sound": "muddy_mangrove_roots"
+  },
+  "lpsm_mb:muddy_mangrove_root_stairs": {
+    "sound": "muddy_mangrove_roots"
+  },
+  "lpsm_mb:muddy_mangrove_root_slab": {
+    "sound": "muddy_mangrove_roots"
+  },
+  "lpsm_mb:muddy_mangrove_root_vertical_slab": {
     "sound": "muddy_mangrove_roots"
   },
   "lpsm_mb:budding_amethyst_layer": {

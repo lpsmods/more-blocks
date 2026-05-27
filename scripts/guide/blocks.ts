@@ -21,17 +21,17 @@ export const blocks = {
     ],
   },
   blocks_sponge_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_slab.png",
+    icon: "textures/lpsm/mb/ui/sponge_slab.png",
     title: "#blocks.sponge",
     body: "#blocks.slabs.sponge",
   },
   blocks_tnt_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_slab.png",
+    icon: "textures/lpsm/mb/ui/tnt_slab.png",
     title: "#blocks.tnt",
     body: "#blocks.slabs.tnt",
   },
   blocks_redstone_block_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_slab.png",
+    icon: "textures/lpsm/mb/ui/redstone_block_slab.png",
     title: "#blocks.redstone_block",
     body: "#blocks.slabs.redstone_block",
   },
@@ -47,17 +47,17 @@ export const blocks = {
     ],
   },
   blocks_sponge_stairs: {
-    icon: "textures/lpsm/mb/ui/oak_log_stairs.png",
+    icon: "textures/lpsm/mb/ui/sponge_stairs.png",
     title: "#blocks.sponge",
     body: "#blocks.stairs.sponge",
   },
   blocks_tnt_stairs: {
-    icon: "textures/lpsm/mb/ui/oak_log_stairs.png",
+    icon: "textures/lpsm/mb/ui/tnt_stairs.png",
     title: "#blocks.tnt",
     body: "#blocks.stairs.tnt",
   },
   blocks_redstone_block_stairs: {
-    icon: "textures/lpsm/mb/ui/oak_log_stairs.png",
+    icon: "textures/lpsm/mb/ui/redstone_block_stairs.png",
     title: "#blocks.redstone_block",
     body: "#blocks.stairs.redstone_block",
   },
@@ -73,17 +73,17 @@ export const blocks = {
     ],
   },
   blocks_sponge_layer: {
-    icon: "textures/lpsm/mb/ui/oak_log_layer.png",
+    icon: "textures/lpsm/mb/ui/sponge_layer.png",
     title: "#blocks.sponge",
     body: "#blocks.layers.sponge",
   },
   blocks_tnt_layer: {
-    icon: "textures/lpsm/mb/ui/oak_log_layer.png",
+    icon: "textures/lpsm/mb/ui/tnt_layer.png",
     title: "#blocks.tnt",
     body: "#blocks.layers.tnt",
   },
   blocks_redstone_block_layer: {
-    icon: "textures/lpsm/mb/ui/oak_log_layer.png",
+    icon: "textures/lpsm/mb/ui/redstone_block_layer.png",
     title: "#blocks.redstone_block",
     body: "#blocks.layers.redstone_block",
   },
@@ -99,17 +99,17 @@ export const blocks = {
     ],
   },
   blocks_sponge_vertical_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_vertical_slab.png",
+    icon: "textures/lpsm/mb/ui/sponge_vertical_slab.png",
     title: "#blocks.sponge",
     body: "#blocks.vertical_slabs.sponge",
   },
   blocks_tnt_vertical_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_vertical_slab.png",
+    icon: "textures/lpsm/mb/ui/tnt_vertical_slab.png",
     title: "#blocks.tnt",
     body: "#blocks.vertical_slabs.tnt",
   },
   blocks_redstone_block_vertical_slab: {
-    icon: "textures/lpsm/mb/ui/oak_log_vertical_slab.png",
+    icon: "textures/lpsm/mb/ui/redstone_block_vertical_slab.png",
     title: "#blocks.redstone_block",
     body: "#blocks.vertical_slabs.redstone_block",
   },

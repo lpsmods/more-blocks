@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lpsm_mb:tnt_block",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/lpsm/mb/entity/tnt"
+      },
+      "geometry": {
+        "default": "geometry.lpsm_mb.tnt_block",
+        "layer": "geometry.lpsm_mb.tnt_layer_1",
+        "slab": "geometry.lpsm_mb.tnt_slab.top",
+        "stairs": "geometry.lpsm_mb.tnt_stairs.straight",
+        "vertical_slab": "geometry.lpsm_mb.tnt_vertical_slab"
+      },
+      "render_controllers": ["controller.render.lpsm_mb.tnt_block"]
+    }
+  }
+}

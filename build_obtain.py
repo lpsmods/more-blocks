@@ -12,7 +12,7 @@ RP = "resource_packs/more_blocks"
 PROJECT_ID = "lpsm_mb"
 PATH_ID =  PROJECT_ID.replace("_", '/')
 BLOCKS_PATH = f"{BP}/blocks/{PATH_ID}"
-RECIPES_PATH = f"{BP}/recipes/{PATH_ID}"
+RECIPES_PATH = f"{BP}/recipes/{PATH_ID}/gen"
 LOOT_TABLES_PATH = f"{BP}/loot_tables/{PATH_ID}"
 
 def mk(pathname:str):
@@ -54,6 +54,8 @@ def to_item(id:str):
         case 'light_gray_glazed_terracotta': return 'silver_glazed_terracotta'
         case 'flowering_azalea_leaves': return 'azalea_leaves_flowered'
         case 'powder_snow': return 'powder_snow_bucket'
+        case 'muddy_mangrove_root': return 'muddy_mangrove_roots'
+        case 'mangrove_root': return 'mangrove_roots'
     return var1
 
 def fix_data(data):
@@ -74,7 +76,6 @@ def fix_data(data):
             for ing in data['minecraft:recipe_shaped']['key'].values():
                 if ing['item'] == 'minecraft:sandstone' or ing['item'] == 'minecraft:red_sandstone':
                     ing['data'] = 0
-
 
 def save(data:dict, fp:str):
     """
@@ -177,12 +178,12 @@ for fn in glob.glob(f'{BLOCKS_PATH}/slab/*.json'):
     fp = os.path.join(RECIPES_PATH, 'slab', f'{ PATH }.json')
     save(data, fp)
 
-## STAIRS
+# STAIRS
 for fn in glob.glob(f'{BLOCKS_PATH}/stairs/*.json'):
     print(fn)
     with open(fn) as fd:
-        slab = json.load(fd)['minecraft:block']
-    ID = slab['description']['identifier']
+        stairs = json.load(fd)['minecraft:block']
+    ID = stairs['description']['identifier']
     PATH = ID.split(":")[1]
     NAMESPACE = ID.split(":")[0]
     
@@ -204,7 +205,7 @@ for fn in glob.glob(f'{BLOCKS_PATH}/stairs/*.json'):
     fp = os.path.join(RECIPES_PATH, 'stairs', f'{ PATH }.json')
     save(data, fp)
 
-## VERTICAL SLAB
+# VERTICAL SLAB
 for fn in glob.glob(f'{BLOCKS_PATH}/vertical_slab/*.json'):
     print(fn)
     with open(fn) as fd:

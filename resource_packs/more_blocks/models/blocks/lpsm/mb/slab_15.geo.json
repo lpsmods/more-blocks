@@ -12,7 +12,12 @@
       },
       "bones": [
         {
+          "name": "bb_main",
+          "pivot": [0, 0, 0]
+        },
+        {
           "name": "top",
+          "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [
             {
@@ -31,6 +36,7 @@
         },
         {
           "name": "bottom",
+          "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [
             {

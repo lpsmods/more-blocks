@@ -1,10 +1,19 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:honey_block_layer",
       "states": {
-        "lpsm_mb:layers": [1, 2, 3, 4, 5, 6, 7, 8]
+        "lpsm_mb:layers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -12,18 +21,23 @@
       },
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       }
     },
     "components": {
+      "minecraft:friction": 0.1,
       "minecraft:light_dampening": 0,
       "minecraft:liquid_detection": {
         "detection_rules": [
           {
             "can_contain_liquid": true,
             "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "stops_liquid_flowing_from_direction": [
+              "down"
+            ]
           }
         ]
       },
@@ -34,7 +48,7 @@
         "explosion_resistance": 1.2
       },
       "minecraft:geometry": {
-        "identifier": "geometry.lpsm_assetsplus.layer",
+        "identifier": "geometry.lpsm_mb.honey_layer",
         "bone_visibility": {
           "layer_1": "q.block_state('lpsm_mb:layers')==1",
           "layer_2": "q.block_state('lpsm_mb:layers')==2",
@@ -62,21 +76,28 @@
       },
       "lpsm_mb:height": {
         "layers_state": "lpsm_mb:layers"
-      }
+      },
+      "tag:lpsm_mb:layer": {}
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [180, 0, 0]
+            "rotation": [
+              180,
+              0,
+              0
+            ]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": ["up"]
+                "stops_liquid_flowing_from_direction": [
+                  "up"
+                ]
               }
             ]
           }
@@ -87,12 +108,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer1.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              2,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              2,
+              14
+            ]
           }
         }
       },
@@ -101,12 +138,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer2.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 4, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              4,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 4, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              4,
+              14
+            ]
           }
         }
       },
@@ -115,12 +168,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer3.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 6, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              6,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 6, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              6,
+              14
+            ]
           }
         }
       },
@@ -129,12 +198,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer4.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 8, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              8,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 8, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              8,
+              14
+            ]
           }
         }
       },
@@ -143,12 +228,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer5.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 10, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              10,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 10, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              10,
+              14
+            ]
           }
         }
       },
@@ -157,12 +258,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer6.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 12, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              12,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 12, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              12,
+              14
+            ]
           }
         }
       },
@@ -171,12 +288,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer7.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 14, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              14,
+              14
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 14, 16]
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              14,
+              14
+            ]
           }
         }
       },
@@ -184,7 +317,31 @@
         "condition": "q.block_state('lpsm_mb:layers')==8",
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/honey_block_layer8.json",
-          "minecraft:geometry": "geometry.honey_block"
+          "minecraft:geometry": "geometry.lpsm_assetsplus.honey_block",
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              16,
+              14
+            ]
+          },
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              16,
+              14
+            ]
+          }
         }
       }
     ]

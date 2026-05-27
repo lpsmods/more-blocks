@@ -1,16 +1,24 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:jungle_leaves_slab",
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       },
       "states": {
-        "lpsm_mb:persistent": [true, false],
-        "lpsm_mb:double": [false, true]
+        "lpsm_mb:persistent": [
+          true,
+          false
+        ],
+        "lpsm_mb:double": [
+          false,
+          true
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -23,8 +31,7 @@
         "detection_rules": [
           {
             "can_contain_liquid": true,
-            "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "liquid_type": "water"
           }
         ]
       },
@@ -52,8 +59,10 @@
       "lpsm_mb:slab": {
         "double_state": "lpsm_mb:double"
       },
+      "minecraft:flammable": {},
       "tag:minecraft:slab": {},
-      "tag:is_hoe_item_destructible": {}
+      "tag:is_hoe_item_destructible": {},
+      "tag:ulkd_ess:tree_leaves_jungle": {}
     },
     "permutations": [
       {
@@ -61,14 +70,6 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/jungle_leaves_double_slab.json",
           "minecraft:geometry": "minecraft:geometry.full_block",
-          "minecraft:liquid_detection": {
-            "detection_rules": [
-              {
-                "can_contain_liquid": false,
-                "liquid_type": "water"
-              }
-            ]
-          },
           "minecraft:selection_box": true,
           "minecraft:collision_box": true
         }
@@ -77,20 +78,27 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
-          },
-          "minecraft:liquid_detection": {
-            "detection_rules": [
-              {
-                "can_contain_liquid": true,
-                "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": ["up"]
-              }
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
             ]
           }
         }
@@ -99,12 +107,28 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           }
         }
       }

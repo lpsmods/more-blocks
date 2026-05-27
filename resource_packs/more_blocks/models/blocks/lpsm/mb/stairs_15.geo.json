@@ -46,7 +46,7 @@
           ]
         },
         {
-          "name": "inner_right",
+          "name": "outer_right",
           "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [
@@ -86,7 +86,7 @@
           ]
         },
         {
-          "name": "outer_right",
+          "name": "inner_right",
           "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "name": "inner_left",
+          "name": "outer_left",
           "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "name": "outer_left",
+          "name": "inner_left",
           "parent": "bb_main",
           "pivot": [0, 0, 0],
           "cubes": [

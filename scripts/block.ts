@@ -9,14 +9,15 @@ import {
   RedstoneLampComponent,
   SlabComponent,
   SpongeComponent,
-  StairsComponent,
   VerticalSlabComponent,
+  TntBlockComponent,
 } from "@lpsmods/mc-utils";
 import { makeId } from "./utils";
 
 export function registerBlockComponents(
   registry: BlockComponentRegistry,
 ): void {
+  registry.registerCustomComponent(makeId("tnt"), new TntBlockComponent());
   registry.registerCustomComponent(makeId("sponge"), new SpongeComponent());
   registry.registerCustomComponent(
     makeId("falling_block"),
@@ -38,7 +39,6 @@ export function registerBlockComponents(
   );
 
   registry.registerCustomComponent(makeId("slab"), new SlabComponent());
-  registry.registerCustomComponent(makeId("stairs"), new StairsComponent());
   registry.registerCustomComponent(
     makeId("vertical_slab"),
     new VerticalSlabComponent(),

@@ -17,16 +17,29 @@ import {
   watchTask,
 } from "@minecraft/core-build-tasks";
 import path from "path";
+import fs from "fs";
+import JSON5 from "json5";
+
+function getManifestVersion(): string {
+  const manifestPath = path.resolve(__dirname, `./behavior_packs/${projectName}/manifest.json`);
+  const manifest = JSON5.parse(fs.readFileSync(manifestPath, "utf8"));
+  const version = manifest.header?.version;
+  if (!version) {
+    throw new Error(`Missing header.version in ${manifestPath}`);
+  }
+  return version;
+}
 
 // Setup env variables
 setupEnvironment(path.resolve(__dirname, ".env"));
 const projectName = getOrThrowFromProcess("PROJECT_NAME");
+const projectVersion = getManifestVersion();
 
 const bundleTaskOptions: BundleTaskParameters = {
   entryPoint: path.join(__dirname, "./scripts/main.ts"),
   external: ["@minecraft/server", "@minecraft/server-ui"],
   outfile: path.resolve(__dirname, "./dist/scripts/main.js"),
-  minifyWhitespace: false,
+  minifyWhitespace: true,
   sourcemap: true,
   outputSourcemapPath: path.resolve(__dirname, "./dist/debug"),
 };
@@ -39,7 +52,7 @@ const copyTaskOptions: CopyTaskParameters = {
 
 const mcaddonTaskOptions: ZipTaskParameters = {
   ...copyTaskOptions,
-  outputFile: `./dist/packages/${projectName}.mcaddon`,
+  outputFile: `./dist/packages/${projectName}-${projectVersion}.mcaddon`,
 };
 
 // Lint
@@ -63,11 +76,7 @@ task("package", series("clean-collateral", "copyArtifacts"));
 task(
   "local-deploy",
   watchTask(
-    [
-      "scripts/**/*.ts",
-      "behavior_packs/**/*.{json,lang,png}",
-      "resource_packs/**/*.{json,lang,png}",
-    ],
+    ["scripts/**/*.ts", "behavior_packs/**/*.{json,lang,png}", "resource_packs/**/*.{json,lang,png}"],
     series("clean-local", "build", "package"),
   ),
 );

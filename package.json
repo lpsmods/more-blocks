@@ -2,12 +2,12 @@
   "name": "more_blocks",
   "private": true,
   "devDependencies": {
-    "@minecraft/core-build-tasks": "^5.3.1",
+    "@minecraft/core-build-tasks": "^5.7.0",
     "@types/pako": "^2.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.40.0",
-    "eslint-plugin-minecraft-linting": "^2.0.2",
-    "prettier": "^3.8.1",
-    "source-map": "^0.7.4",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "eslint-plugin-minecraft-linting": "^2.0.12",
+    "prettier": "^3.8.3",
+    "source-map": "^0.7.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.0.2"
   },
@@ -21,13 +21,14 @@
     "enablemcpreviewloopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-424268864-5579737-879501358-346833251-474568803-887069379-4040235476"
   },
   "dependencies": {
-    "@lpsmods/mc-common": "file:../../minecraft-scripting-libraries/libraries/mc-common",
-    "@lpsmods/mc-dev": "file:../../minecraft-scripting-libraries/libraries/mc-dev",
-    "@lpsmods/mc-utils": "file:../../minecraft-scripting-libraries/libraries/mc-utils",
+    "@lpsmods/mc-common": "0.0.4",
+    "@lpsmods/mc-dev": "0.0.4",
+    "@lpsmods/mc-utils": "1.1.0",
     "@minecraft/math": "^2.4.0",
-    "@minecraft/server": "^2.6.0",
+    "@minecraft/server": "^2.7.0",
     "@minecraft/server-ui": "^2.0.0",
-    "@minecraft/vanilla-data": "^1.26.13",
+    "@minecraft/vanilla-data": "^1.26.21",
+    "json5": "^2.2.3",
     "pako": "^2.1.0"
   }
 }

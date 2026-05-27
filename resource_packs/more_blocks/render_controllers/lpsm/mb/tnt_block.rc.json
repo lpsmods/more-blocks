@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.lpsm_mb.tnt_block": {
+      "arrays": {
+        "geometries": {
+          "array.geo": [
+            "geometry.default",
+            "geometry.layer",
+            "geometry.slab",
+            "geometry.stairs",
+            "geometry.vertical_slab"
+          ]
+        }
+      },
+      "geometry": "array.geo[q.variant]",
+      "textures": ["Texture.default"],
+      "materials": [{ "*": "Material.default" }]
+    }
+  }
+}

@@ -1,16 +1,30 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:farmland_slab",
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       },
       "states": {
-        "lpsm_mb:double": [false, true],
-        "lpsm_mb:moisture": [0, 1, 2, 3, 4, 5, 6, 7]
+        "lpsm_mb:double": [
+          false,
+          true
+        ],
+        "lpsm_mb:moisture": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -24,7 +38,9 @@
           {
             "can_contain_liquid": true,
             "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "stops_liquid_flowing_from_direction": [
+              "down"
+            ]
           }
         ]
       },
@@ -47,11 +63,15 @@
         "bone_visibility": {
           "top": "q.block_state('minecraft:vertical_half')=='top'",
           "bottom": "q.block_state('minecraft:vertical_half')=='bottom'"
-        }
+        },
+        "culling": "lpsm_assetsplus:slab"
       },
       "minecraft:tick": {
         "looping": true,
-        "interval_range": [0, 0]
+        "interval_range": [
+          0,
+          0
+        ]
       },
       "lpsm_mb:slab": {
         "double_state": "lpsm_mb:double"
@@ -66,7 +86,10 @@
         "condition": "q.block_state('lpsm_mb:double')",
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/farmland_double_slab.json",
-          "minecraft:geometry": "geometry.lpsm_mb.block_15",
+          "minecraft:geometry": {
+            "identifier": "geometry.lpsm_mb.block_15",
+            "culling": "lpsm_mb:block_15"
+          },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
@@ -76,12 +99,28 @@
             ]
           },
           "minecraft:collision_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 15.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              15.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 15.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              15.0,
+              16.0
+            ]
           }
         }
       },
@@ -89,12 +128,28 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 7.0, 16.0]
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              7.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 7.0, 16.0]
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              7.0,
+              16.0
+            ]
           }
         }
       },
@@ -102,12 +157,28 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 7.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              7.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 7.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              7.0,
+              16.0
+            ]
           }
         }
       },

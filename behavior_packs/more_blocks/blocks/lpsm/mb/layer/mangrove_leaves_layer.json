@@ -1,11 +1,23 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:mangrove_leaves_layer",
       "states": {
-        "lpsm_mb:persistent": [true, false],
-        "lpsm_mb:layers": [1, 2, 3, 4, 5, 6, 7, 8]
+        "lpsm_mb:persistent": [
+          true,
+          false
+        ],
+        "lpsm_mb:layers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -13,7 +25,9 @@
       },
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       }
     },
@@ -23,8 +37,7 @@
         "detection_rules": [
           {
             "can_contain_liquid": true,
-            "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "liquid_type": "water"
           }
         ]
       },
@@ -57,22 +70,20 @@
       "lpsm_mb:height": {
         "layers_state": "lpsm_mb:layers"
       },
-      "tag:is_hoe_item_destructible": {}
+      "minecraft:flammable": {},
+      "tag:lpsm_mb:layer": {},
+      "tag:is_hoe_item_destructible": {},
+      "tag:ulkd_ess:tree_leaves_mangrove": {}
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [180, 0, 0]
-          },
-          "minecraft:liquid_detection": {
-            "detection_rules": [
-              {
-                "can_contain_liquid": true,
-                "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": ["up"]
-              }
+            "rotation": [
+              180,
+              0,
+              0
             ]
           }
         }
@@ -82,12 +93,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer1.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              2,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 2, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              2,
+              16
+            ]
           }
         }
       },
@@ -96,12 +123,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer2.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 4, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              4,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 4, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              4,
+              16
+            ]
           }
         }
       },
@@ -110,12 +153,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer3.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 6, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              6,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 6, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              6,
+              16
+            ]
           }
         }
       },
@@ -124,12 +183,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer4.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 8, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 8, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
           }
         }
       },
@@ -138,12 +213,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer5.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 10, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              10,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 10, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              10,
+              16
+            ]
           }
         }
       },
@@ -152,12 +243,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer6.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 12, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              12,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 12, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              12,
+              16
+            ]
           }
         }
       },
@@ -166,12 +273,28 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/mangrove_leaves_layer7.json",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 14, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              14,
+              16
+            ]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 14, 16]
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              14,
+              16
+            ]
           }
         }
       },
@@ -186,8 +309,7 @@
                 "liquid_type": "water"
               }
             ]
-          },
-          "minecraft:geometry": "minecraft:geometry.full_block"
+          }
         }
       }
     ]

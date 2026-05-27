@@ -1,15 +1,20 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.26.10",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:slime_block_slab",
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": ["minecraft:vertical_half"]
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
         }
       },
       "states": {
-        "lpsm_mb:double": [false, true]
+        "lpsm_mb:double": [
+          false,
+          true
+        ]
       },
       "menu_category": {
         "category": "construction",
@@ -17,13 +22,16 @@
       }
     },
     "components": {
+      "minecraft:friction": 0.1,
       "minecraft:light_dampening": 0,
       "minecraft:liquid_detection": {
         "detection_rules": [
           {
             "can_contain_liquid": true,
             "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": ["down"]
+            "stops_liquid_flowing_from_direction": [
+              "down"
+            ]
           }
         ]
       },
@@ -57,7 +65,7 @@
         "condition": "q.block_state('lpsm_mb:double')",
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/slime_block_double_slab.json",
-          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:geometry": "geometry.lpsm_assetsplus.slime_block",
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
@@ -74,19 +82,37 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 8.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              8.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": ["up"]
+                "stops_liquid_flowing_from_direction": [
+                  "up"
+                ]
               }
             ]
           }
@@ -96,12 +122,28 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           },
           "minecraft:selection_box": {
-            "origin": [-8.0, 0.0, -8.0],
-            "size": [16.0, 8.0, 16.0]
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              8.0,
+              16.0
+            ]
           }
         }
       }
