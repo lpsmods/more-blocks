@@ -76,9 +76,10 @@ task(
     inGameFile: path.join(generatedDir, "changelog.ts"),
   }),
 );
+task("clean-stage", cleanTask([stageDir]));
 task(
   "build",
-  series("stage-packs", "changelog", "typescript", "bundle", "stage-scripts", "generate", "minify"),
+  series("clean-stage", "stage-packs", "changelog", "typescript", "bundle", "stage-scripts", "generate", "minify"),
 );
 
 // Clean
