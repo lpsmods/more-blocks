@@ -1,14 +1,8 @@
 {
   "format_version": "1.26.12",
   "minecraft:recipe_furnace": {
-    "description": {
-      "identifier": "lpsm_mb:dry_sponge_layer"
-    },
-    "unlock": [
-      {
-        "item": "lpsm_mb:sponge_layer"
-      }
-    ],
+    "description": { "identifier": "lpsm_mb:dry_sponge_layer" },
+    "unlock": [{ "item": "lpsm_mb:sponge_layer" }],
     "tags": ["furnace"],
     "input": "lpsm_mb:wet_sponge_layer",
     "output": "lpsm_mb:sponge_layer"

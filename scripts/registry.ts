@@ -10,23 +10,8 @@ import { makeId } from "./utils";
 import { Vector3Utils } from "@minecraft/math";
 
 const variants = ["stairs", "layer", "slab", "vertical_slab"];
-const waxable = [
-  "copper",
-  "exposed_copper",
-  "weathered_copper",
-  "oxidized_copper",
-];
-const woods = [
-  "oak",
-  "spruce",
-  "birch",
-  "jungle",
-  "acacia",
-  "dark_oak",
-  "mangrove",
-  "cherry",
-  "pale_oak",
-];
+const waxable = ["copper", "exposed_copper", "weathered_copper", "oxidized_copper"];
+const woods = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "pale_oak"];
 
 for (const v of variants) {
   // Flatten
@@ -64,10 +49,7 @@ for (const v of variants) {
   tillableBlocks.register(makeId(`rooted_dirt_${v}`), {
     block: makeId(`dirt_${v}`),
     onConvert(block: Block) {
-      block.dimension.spawnItem(
-        new ItemStack("hanging_roots"),
-        Vector3Utils.add(block.location, { x: 0.5, z: 0.5 }),
-      );
+      block.dimension.spawnItem(new ItemStack("hanging_roots"), Vector3Utils.add(block.location, { x: 0.5, z: 0.5 }));
     },
   });
 
@@ -142,12 +124,9 @@ for (const v of variants) {
     waxableBlocks.register(makeId(`${wax}_grate_${v}`), {
       block: makeId(`waxed_${wax}_grate_${v}`),
     });
-    waxableBlocks.register(
-      makeId(`${wax}_${v}`.replace("copper", "chiseled_copper")),
-      {
-        block: makeId(`waxed_${wax}_${v}`.replace("copper", "chiseled_copper")),
-      },
-    );
+    waxableBlocks.register(makeId(`${wax}_${v}`.replace("copper", "chiseled_copper")), {
+      block: makeId(`waxed_${wax}_${v}`.replace("copper", "chiseled_copper")),
+    });
   }
 }
 
@@ -164,11 +143,8 @@ for (const v of ["vertical_slab", "layer"]) {
   });
 
   for (const wax of waxable) {
-    waxableBlocks.register(
-      makeId(`${wax}_${v}`.replace("copper", "cut_copper")),
-      {
-        block: makeId(`waxed_${wax}_${v}`.replace("copper", "cut_copper")),
-      },
-    );
+    waxableBlocks.register(makeId(`${wax}_${v}`.replace("copper", "cut_copper")), {
+      block: makeId(`waxed_${wax}_${v}`.replace("copper", "cut_copper")),
+    });
   }
 }

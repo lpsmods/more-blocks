@@ -3,22 +3,13 @@ export const blocks = {
     icon: "textures/lpsm/mb/ui/oak_log_stairs.png",
     title: "guide.common.blocks",
     body: "guide.common.blocks.desc",
-    buttons: [
-      "blocks_slabs",
-      "blocks_stairs",
-      "blocks_layers",
-      "blocks_vertical_slabs",
-    ],
+    buttons: ["blocks_slabs", "blocks_stairs", "blocks_layers", "blocks_vertical_slabs"],
   },
   blocks_slabs: {
     icon: "textures/lpsm/mb/ui/oak_log_slab.png",
     title: "#blocks.slabs",
     body: "#blocks.slabs.desc",
-    buttons: [
-      "blocks_sponge_slab",
-      "blocks_tnt_slab",
-      "blocks_redstone_block_slab",
-    ],
+    buttons: ["blocks_sponge_slab", "blocks_tnt_slab", "blocks_redstone_block_slab"],
   },
   blocks_sponge_slab: {
     icon: "textures/lpsm/mb/ui/sponge_slab.png",
@@ -40,11 +31,7 @@ export const blocks = {
     icon: "textures/lpsm/mb/ui/oak_log_stairs.png",
     title: "#blocks.stairs",
     body: "#blocks.stairs.desc",
-    buttons: [
-      "blocks_sponge_stairs",
-      "blocks_tnt_stairs",
-      "blocks_redstone_block_stairs",
-    ],
+    buttons: ["blocks_sponge_stairs", "blocks_tnt_stairs", "blocks_redstone_block_stairs"],
   },
   blocks_sponge_stairs: {
     icon: "textures/lpsm/mb/ui/sponge_stairs.png",
@@ -66,11 +53,7 @@ export const blocks = {
     icon: "textures/lpsm/mb/ui/oak_log_layer.png",
     title: "#blocks.layers",
     body: "#blocks.layers.desc",
-    buttons: [
-      "blocks_sponge_layer",
-      "blocks_tnt_layer",
-      "blocks_redstone_block_layer",
-    ],
+    buttons: ["blocks_sponge_layer", "blocks_tnt_layer", "blocks_redstone_block_layer"],
   },
   blocks_sponge_layer: {
     icon: "textures/lpsm/mb/ui/sponge_layer.png",
@@ -92,11 +75,7 @@ export const blocks = {
     icon: "textures/lpsm/mb/ui/oak_log_vertical_slab.png",
     title: "#blocks.vertical_slabs",
     body: "#blocks.vertical_slabs.desc",
-    buttons: [
-      "blocks_sponge_vertical_slab",
-      "blocks_tnt_vertical_slab",
-      "blocks_redstone_block_vertical_slab",
-    ],
+    buttons: ["blocks_sponge_vertical_slab", "blocks_tnt_vertical_slab", "blocks_redstone_block_vertical_slab"],
   },
   blocks_sponge_vertical_slab: {
     icon: "textures/lpsm/mb/ui/sponge_vertical_slab.png",

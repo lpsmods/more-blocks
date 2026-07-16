@@ -11,10 +11,7 @@
         "visible_bounds_offset": [0, 0.75, 0]
       },
       "bones": [
-        {
-          "name": "bb_main",
-          "pivot": [0, 0, 0]
-        },
+        { "name": "bb_main", "pivot": [0, 0, 0] },
         {
           "name": "straight",
           "parent": "bb_main",
@@ -28,11 +25,7 @@
                 "east": { "uv": [0, 8], "uv_size": [16, 8] },
                 "south": { "uv": [32, 8], "uv_size": [-16, 8] },
                 "west": { "uv": [0, 16], "uv_size": [16, 8] },
-                "up": {
-                  "uv": [16, 16],
-                  "uv_size": [-16, 16],
-                  "uv_rotation": 90
-                },
+                "up": { "uv": [16, 16], "uv_size": [-16, 16], "uv_rotation": 90 },
                 "down": { "uv": [16, 16], "uv_size": [-16, -16] }
               }
             },
@@ -44,11 +37,7 @@
                 "east": { "uv": [0, 0], "uv_size": [16, 8] },
                 "south": { "uv": [24, 0], "uv_size": [-8, 8] },
                 "west": { "uv": [0, 16], "uv_size": [16, 8] },
-                "up": {
-                  "uv": [16, 24],
-                  "uv_size": [-16, -8],
-                  "uv_rotation": 90
-                }
+                "up": { "uv": [16, 24], "uv_size": [-16, -8], "uv_rotation": 90 }
               }
             }
           ]
@@ -106,11 +95,7 @@
                 "east": { "uv": [16, 8], "uv_size": [16, 8] },
                 "south": { "uv": [32, 8], "uv_size": [-16, 8] },
                 "west": { "uv": [0, 16], "uv_size": [16, 8] },
-                "up": {
-                  "uv": [32, 16],
-                  "uv_size": [-16, -16],
-                  "uv_rotation": 90
-                },
+                "up": { "uv": [32, 16], "uv_size": [-16, -16], "uv_rotation": 90 },
                 "down": { "uv": [16, 16], "uv_size": [-16, -16] }
               }
             },
@@ -140,11 +125,7 @@
                 "east": { "uv": [0, 8], "uv_size": [16, 8] },
                 "south": { "uv": [32, 8], "uv_size": [-16, 8] },
                 "west": { "uv": [16, 8], "uv_size": [16, 8] },
-                "up": {
-                  "uv": [32, 32],
-                  "uv_size": [-16, -16],
-                  "uv_rotation": 270
-                },
+                "up": { "uv": [32, 32], "uv_size": [-16, -16], "uv_rotation": 270 },
                 "down": { "uv": [16, 16], "uv_size": [-16, -16] }
               }
             },

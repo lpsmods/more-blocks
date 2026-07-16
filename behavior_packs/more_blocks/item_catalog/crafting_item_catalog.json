@@ -5,18 +5,9 @@
       {
         "category_name": "construction",
         "groups": [
+          { "group_identifier": { "icon": "lpsm_mb:oak_layer", "name": "lpsm_mb:itemGroup.name.layer" }, "items": [] },
           {
-            "group_identifier": {
-              "icon": "lpsm_mb:oak_layer",
-              "name": "lpsm_mb:itemGroup.name.layer"
-            },
-            "items": []
-          },
-          {
-            "group_identifier": {
-              "icon": "lpsm_mb:oak_vertical_slab",
-              "name": "lpsm_mb:itemGroup.name.verticalSlab"
-            },
+            "group_identifier": { "icon": "lpsm_mb:oak_vertical_slab", "name": "lpsm_mb:itemGroup.name.verticalSlab" },
             "items": []
           }
         ]

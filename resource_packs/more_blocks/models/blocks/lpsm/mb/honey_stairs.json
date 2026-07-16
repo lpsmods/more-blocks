@@ -11,10 +11,7 @@
         "visible_bounds_offset": [0, 0.75, 0]
       },
       "bones": [
-        {
-          "name": "bb_main",
-          "pivot": [0, 0, 0]
-        },
+        { "name": "bb_main", "pivot": [0, 0, 0] },
         {
           "name": "straight",
           "parent": "bb_main",

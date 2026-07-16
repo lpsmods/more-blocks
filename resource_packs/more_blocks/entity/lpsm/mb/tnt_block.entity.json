@@ -4,9 +4,7 @@
     "description": {
       "identifier": "lpsm_mb:tnt_block",
       "materials": { "default": "entity" },
-      "textures": {
-        "default": "textures/lpsm/mb/entity/tnt"
-      },
+      "textures": { "default": "textures/lpsm/mb/entity/tnt" },
       "geometry": {
         "default": "geometry.lpsm_mb.tnt_block",
         "layer": "geometry.lpsm_mb.tnt_layer_1",

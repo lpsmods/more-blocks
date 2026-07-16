@@ -1,26 +1,11 @@
 {
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
-    "description": {
-      "identifier": "minecraft:red_sandstone_stairs_from_cut"
-    },
+    "description": { "identifier": "minecraft:red_sandstone_stairs_from_cut" },
     "tags": ["removed"],
     "pattern": ["#  ", "## ", "###"],
-    "key": {
-      "#": {
-        "item": "minecraft:cut_red_sandstone",
-        "data": 0
-      }
-    },
-    "unlock": [
-      {
-        "item": "minecraft:cut_red_sandstone",
-        "data": 0
-      }
-    ],
-    "result": {
-      "item": "minecraft:red_sandstone_stairs",
-      "count": 4
-    }
+    "key": { "#": { "item": "minecraft:cut_red_sandstone", "data": 0 } },
+    "unlock": [{ "item": "minecraft:cut_red_sandstone", "data": 0 }],
+    "result": { "item": "minecraft:red_sandstone_stairs", "count": 4 }
   }
 }

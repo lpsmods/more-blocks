@@ -5,103 +5,38 @@
   "num_mip_levels": 4,
   "texture_data": {
     "lpsm_mb:glass": { "textures": "textures/lpsm/mb/blocks/glass.png" },
-    "lpsm_mb:black_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/black_stained_glass.png"
-    },
-    "lpsm_mb:blue_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/blue_stained_glass.png"
-    },
-    "lpsm_mb:brown_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/brown_stained_glass.png"
-    },
-    "lpsm_mb:cyan_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/cyan_stained_glass.png"
-    },
-    "lpsm_mb:gray_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/gray_stained_glass.png"
-    },
-    "lpsm_mb:green_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/green_stained_glass.png"
-    },
-    "lpsm_mb:light_blue_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/light_blue_stained_glass.png"
-    },
-    "lpsm_mb:light_gray_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/light_gray_stained_glass.png"
-    },
-    "lpsm_mb:lime_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/lime_stained_glass.png"
-    },
-    "lpsm_mb:magenta_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/magenta_stained_glass.png"
-    },
-    "lpsm_mb:orange_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/orange_stained_glass.png"
-    },
-    "lpsm_mb:pink_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/pink_stained_glass.png"
-    },
-    "lpsm_mb:purple_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/purple_stained_glass.png"
-    },
-    "lpsm_mb:red_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/red_stained_glass.png"
-    },
-    "lpsm_mb:sea_lantern": {
-      "textures": "textures/lpsm/mb/blocks/sea_lantern.png"
-    },
-    "lpsm_mb:tinted_glass": {
-      "textures": "textures/lpsm/mb/blocks/tinted_glass.png"
-    },
-    "lpsm_mb:white_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/white_stained_glass.png"
-    },
-    "lpsm_mb:yellow_stained_glass": {
-      "textures": "textures/lpsm/mb/blocks/yellow_stained_glass.png"
-    },
-    // Old
-    "lpsm_mb:glass_layer_side1": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side1.png"
-    },
-    "lpsm_mb:glass_layer_side2": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side2.png"
-    },
-    "lpsm_mb:glass_layer_side3": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side3.png"
-    },
-    "lpsm_mb:glass_layer_side4": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side4.png"
-    },
-    "lpsm_mb:glass_layer_side5": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side5.png"
-    },
-    "lpsm_mb:glass_layer_side6": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side6.png"
-    },
-    "lpsm_mb:glass_layer_side7": {
-      "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side7.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side1": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side1.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side2": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side2.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side3": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side3.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side4": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side4.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side5": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side5.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side6": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side6.png"
-    },
-    "lpsm_mb:tinted_glass_layer_side7": {
-      "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side7.png"
-    },
+    "lpsm_mb:black_stained_glass": { "textures": "textures/lpsm/mb/blocks/black_stained_glass.png" },
+    "lpsm_mb:blue_stained_glass": { "textures": "textures/lpsm/mb/blocks/blue_stained_glass.png" },
+    "lpsm_mb:brown_stained_glass": { "textures": "textures/lpsm/mb/blocks/brown_stained_glass.png" },
+    "lpsm_mb:cyan_stained_glass": { "textures": "textures/lpsm/mb/blocks/cyan_stained_glass.png" },
+    "lpsm_mb:gray_stained_glass": { "textures": "textures/lpsm/mb/blocks/gray_stained_glass.png" },
+    "lpsm_mb:green_stained_glass": { "textures": "textures/lpsm/mb/blocks/green_stained_glass.png" },
+    "lpsm_mb:light_blue_stained_glass": { "textures": "textures/lpsm/mb/blocks/light_blue_stained_glass.png" },
+    "lpsm_mb:light_gray_stained_glass": { "textures": "textures/lpsm/mb/blocks/light_gray_stained_glass.png" },
+    "lpsm_mb:lime_stained_glass": { "textures": "textures/lpsm/mb/blocks/lime_stained_glass.png" },
+    "lpsm_mb:magenta_stained_glass": { "textures": "textures/lpsm/mb/blocks/magenta_stained_glass.png" },
+    "lpsm_mb:orange_stained_glass": { "textures": "textures/lpsm/mb/blocks/orange_stained_glass.png" },
+    "lpsm_mb:pink_stained_glass": { "textures": "textures/lpsm/mb/blocks/pink_stained_glass.png" },
+    "lpsm_mb:purple_stained_glass": { "textures": "textures/lpsm/mb/blocks/purple_stained_glass.png" },
+    "lpsm_mb:red_stained_glass": { "textures": "textures/lpsm/mb/blocks/red_stained_glass.png" },
+    "lpsm_mb:sea_lantern": { "textures": "textures/lpsm/mb/blocks/sea_lantern.png" },
+    "lpsm_mb:tinted_glass": { "textures": "textures/lpsm/mb/blocks/tinted_glass.png" },
+    "lpsm_mb:white_stained_glass": { "textures": "textures/lpsm/mb/blocks/white_stained_glass.png" },
+    "lpsm_mb:yellow_stained_glass": { "textures": "textures/lpsm/mb/blocks/yellow_stained_glass.png" },
+    "lpsm_mb:glass_layer_side1": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side1.png" },
+    "lpsm_mb:glass_layer_side2": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side2.png" },
+    "lpsm_mb:glass_layer_side3": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side3.png" },
+    "lpsm_mb:glass_layer_side4": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side4.png" },
+    "lpsm_mb:glass_layer_side5": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side5.png" },
+    "lpsm_mb:glass_layer_side6": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side6.png" },
+    "lpsm_mb:glass_layer_side7": { "textures": "textures/lpsm/mb/blocks/layers/glass_layer_side7.png" },
+    "lpsm_mb:tinted_glass_layer_side1": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side1.png" },
+    "lpsm_mb:tinted_glass_layer_side2": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side2.png" },
+    "lpsm_mb:tinted_glass_layer_side3": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side3.png" },
+    "lpsm_mb:tinted_glass_layer_side4": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side4.png" },
+    "lpsm_mb:tinted_glass_layer_side5": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side5.png" },
+    "lpsm_mb:tinted_glass_layer_side6": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side6.png" },
+    "lpsm_mb:tinted_glass_layer_side7": { "textures": "textures/lpsm/mb/blocks/layers/tinted_glass_layer_side7.png" },
     "lpsm_mb:blue_stained_glass_layer_side1": {
       "textures": "textures/lpsm/mb/blocks/layers/blue_stained_glass_layer_side1.png"
     },

@@ -1,26 +1,10 @@
 {
   "format_version": "1.20.10",
   "minecraft:recipe_shapeless": {
-    "description": {
-      "identifier": "lpsm_mb:guide_book"
-    },
+    "description": { "identifier": "lpsm_mb:guide_book" },
     "tags": ["crafting_table"],
-    "ingredients": [
-      {
-        "item": "minecraft:book"
-      },
-      {
-        "item": "lpsm_mb:oak_vertical_slab"
-      }
-    ],
-    "unlock": [
-      {
-        "item": "minecraft:book"
-      },
-      {
-        "item": "lpsm_mb:oak_vertical_slab"
-      }
-    ],
+    "ingredients": [{ "item": "minecraft:book" }, { "item": "lpsm_mb:oak_vertical_slab" }],
+    "unlock": [{ "item": "minecraft:book" }, { "item": "lpsm_mb:oak_vertical_slab" }],
     "result": { "item": "lpsm_mb:guide_book" }
   }
 }

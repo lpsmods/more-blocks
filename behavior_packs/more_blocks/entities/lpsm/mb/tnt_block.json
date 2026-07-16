@@ -9,31 +9,15 @@
       "spawn_category": "misc"
     },
     "components": {
-      "minecraft:variant": {
-        "value": 0
-      },
-      "minecraft:collision_box": {
-        "height": 0.98,
-        "width": 0.98
-      },
+      "minecraft:variant": { "value": 0 },
+      "minecraft:collision_box": { "height": 0.98, "width": 0.98 },
       "minecraft:conditional_bandwidth_optimization": {
-        "default_values": {
-          "max_dropped_ticks": 5,
-          "max_optimized_distance": 80.0,
-          "use_motion_prediction_hints": true
-        }
+        "default_values": { "max_dropped_ticks": 5, "max_optimized_distance": 80, "use_motion_prediction_hints": true }
       },
-      "minecraft:explode": {
-        "causes_fire": false,
-        "fuse_lit": true,
-        "power": 4,
-        "fuse_length": 4
-      },
+      "minecraft:explode": { "causes_fire": false, "fuse_lit": true, "power": 4, "fuse_length": 4 },
       "minecraft:physics": {},
       "minecraft:pushable_by_block": {},
-      "minecraft:type_family": {
-        "family": ["tnt", "inanimate"]
-      }
+      "minecraft:type_family": { "family": ["tnt", "inanimate"] }
     },
     "component_groups": {
       "from_explosion": {
@@ -41,77 +25,29 @@
           "causes_fire": false,
           "fuse_lit": true,
           "power": 4,
-          "fuse_length": {
-            "range_max": 2.0,
-            "range_min": 0.5
-          }
+          "fuse_length": { "range_max": 2, "range_min": 0.5 }
         }
       },
       "lpsm_mb:tnt_layer": {
-        "minecraft:variant": {
-          "value": 1
-        },
-        "minecraft:explode": {
-          "causes_fire": false,
-          "fuse_lit": true,
-          "power": 4,
-          "fuse_length": 4
-        }
+        "minecraft:variant": { "value": 1 },
+        "minecraft:explode": { "causes_fire": false, "fuse_lit": true, "power": 4, "fuse_length": 4 }
       },
       "lpsm_mb:tnt_slab": {
-        "minecraft:variant": {
-          "value": 2
-        },
-        "minecraft:explode": {
-          "causes_fire": false,
-          "fuse_lit": true,
-          "power": 2,
-          "fuse_length": 2
-        }
+        "minecraft:variant": { "value": 2 },
+        "minecraft:explode": { "causes_fire": false, "fuse_lit": true, "power": 2, "fuse_length": 2 }
       },
-      "lpsm_mb:tnt_stairs": {
-        "minecraft:variant": {
-          "value": 3
-        }
-      },
+      "lpsm_mb:tnt_stairs": { "minecraft:variant": { "value": 3 } },
       "lpsm_mb:tnt_vertical_slab": {
-        "minecraft:variant": {
-          "value": 4
-        },
-        "minecraft:explode": {
-          "causes_fire": false,
-          "fuse_lit": true,
-          "power": 2,
-          "fuse_length": 2
-        }
+        "minecraft:variant": { "value": 4 },
+        "minecraft:explode": { "causes_fire": false, "fuse_lit": true, "power": 2, "fuse_length": 2 }
       }
     },
     "events": {
-      "from_explosion": {
-        "add": {
-          "component_groups": ["from_explosion"]
-        }
-      },
-      "lpsm_mb:tnt_layer": {
-        "add": {
-          "component_groups": ["lpsm_mb:tnt_layer"]
-        }
-      },
-      "lpsm_mb:tnt_slab": {
-        "add": {
-          "component_groups": ["lpsm_mb:tnt_slab"]
-        }
-      },
-      "lpsm_mb:tnt_stairs": {
-        "add": {
-          "component_groups": ["lpsm_mb:tnt_stairs"]
-        }
-      },
-      "lpsm_mb:tnt_vertical_slab": {
-        "add": {
-          "component_groups": ["lpsm_mb:tnt_vertical_slab"]
-        }
-      }
+      "from_explosion": { "add": { "component_groups": ["from_explosion"] } },
+      "lpsm_mb:tnt_layer": { "add": { "component_groups": ["lpsm_mb:tnt_layer"] } },
+      "lpsm_mb:tnt_slab": { "add": { "component_groups": ["lpsm_mb:tnt_slab"] } },
+      "lpsm_mb:tnt_stairs": { "add": { "component_groups": ["lpsm_mb:tnt_stairs"] } },
+      "lpsm_mb:tnt_vertical_slab": { "add": { "component_groups": ["lpsm_mb:tnt_vertical_slab"] } }
     }
   }
 }
