@@ -408,7 +408,7 @@ export function buildPacks(behaviorPackPath: string, resourcePackPath: string): 
   BP = path.resolve(behaviorPackPath);
   RP = path.resolve(resourcePackPath);
   BLOCKS_PATH = path.join(BP, "blocks", PATH_ID);
-  RECIPES_PATH = path.join(BP, "recipes", PATH_ID, "gen");
+  RECIPES_PATH = path.join(BP, "recipes", PATH_ID);
   LOOT_TABLES_PATH = path.join(BP, "loot_tables", PATH_ID);
 
   buildFallingBlocks();
