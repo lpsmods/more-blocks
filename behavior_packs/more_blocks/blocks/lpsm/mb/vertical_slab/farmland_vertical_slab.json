@@ -5,26 +5,12 @@
       "identifier": "lpsm_mb:farmland_vertical_slab",
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ]
+          "enabled_states": ["minecraft:cardinal_direction"]
         }
       },
       "states": {
-        "lpsm_mb:double": [
-          false,
-          true
-        ],
-        "lpsm_mb:moisture": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7
-        ]
+        "lpsm_mb:double": [false, true],
+        "lpsm_mb:moisture": [0, 1, 2, 3, 4, 5, 6, 7]
       },
       "menu_category": {
         "category": "construction",
@@ -52,63 +38,35 @@
         "culling": "lpsm_mb:vertical_slab_15"
       },
       "minecraft:collision_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          16.0,
-          15.0,
-          8.0
-        ]
+        "origin": [-8, 0, 0],
+        "size": [16, 15, 8]
       },
       "minecraft:selection_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          16.0,
-          15.0,
-          8.0
-        ]
+        "origin": [-8, 0, 0],
+        "size": [16, 15, 8]
       },
       "minecraft:tick": {
         "looping": true,
-        "interval_range": [
-          0,
-          0
-        ]
+        "interval_range": [0, 0]
       },
       "lpsm_mb:vertical_slab": {
         "double_state": "lpsm_mb:double"
       },
-      "lpsm_mb:farmland": {},
-      "tag:lpsm_mb:vertical_slab": {},
-      "tag:dirt": {},
-      "tag:minecraft:is_shovel_item_destructible": {}
+      "lpsm_mb:farmland": {}
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [0, 180, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "north"
-                ]
+                "stops_liquid_flowing_from_direction": ["north"]
               }
             ]
           }
@@ -118,20 +76,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [0, 0, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "south"
-                ]
+                "stops_liquid_flowing_from_direction": ["south"]
               }
             ]
           }
@@ -141,20 +93,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [0, 90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "east"
-                ]
+                "stops_liquid_flowing_from_direction": ["east"]
               }
             ]
           }
@@ -164,20 +110,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [0, -90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "west"
-                ]
+                "stops_liquid_flowing_from_direction": ["west"]
               }
             ]
           }
@@ -200,28 +140,12 @@
             "culling": "lpsm_mb:block_15"
           },
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              15,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 15, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              15,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 15, 16]
           }
         }
       },

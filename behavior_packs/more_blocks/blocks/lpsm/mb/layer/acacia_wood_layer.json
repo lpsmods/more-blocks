@@ -4,16 +4,7 @@
     "description": {
       "identifier": "lpsm_mb:acacia_wood_layer",
       "states": {
-        "lpsm_mb:layers": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
-        ]
+        "lpsm_mb:layers": [1, 2, 3, 4, 5, 6, 7, 8]
       },
       "menu_category": {
         "category": "construction",
@@ -21,9 +12,7 @@
       },
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": [
-            "minecraft:vertical_half"
-          ]
+          "enabled_states": ["minecraft:vertical_half"]
         }
       }
     },
@@ -34,9 +23,7 @@
           {
             "can_contain_liquid": true,
             "liquid_type": "water",
-            "stops_liquid_flowing_from_direction": [
-              "down"
-            ]
+            "stops_liquid_flowing_from_direction": ["down"]
           }
         ]
       },
@@ -67,30 +54,21 @@
       "lpsm_mb:height": {
         "layers_state": "lpsm_mb:layers"
       },
-      "minecraft:flammable": {},
-      "tag:lpsm_mb:layer": {},
-      "tag:wood": {},
-      "tag:is_axe_item_destructible": {}
+      "minecraft:flammable": {}
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180,
-              0,
-              0
-            ]
+            "rotation": [180, 0, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "up"
-                ]
+                "stops_liquid_flowing_from_direction": ["up"]
               }
             ]
           }
@@ -101,28 +79,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer1.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              2,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 2, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              2,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 2, 16]
           }
         }
       },
@@ -131,28 +93,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer2.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              4,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 4, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              4,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 4, 16]
           }
         }
       },
@@ -161,28 +107,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer3.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              6,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 6, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              6,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 6, 16]
           }
         }
       },
@@ -191,28 +121,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer4.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              8,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              8,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
           }
         }
       },
@@ -221,28 +135,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer5.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              10,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 10, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              10,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 10, 16]
           }
         }
       },
@@ -251,28 +149,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer6.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              12,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 12, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              12,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 12, 16]
           }
         }
       },
@@ -281,28 +163,12 @@
         "components": {
           "minecraft:loot": "loot_tables/lpsm/mb/blocks/acacia_wood_layer7.json",
           "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              14,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 14, 16]
           },
           "minecraft:collision_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              14,
-              16
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 14, 16]
           }
         }
       },

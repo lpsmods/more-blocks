@@ -5,20 +5,12 @@
       "identifier": "lpsm_mb:azalea_leaves_vertical_slab",
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:cardinal_direction"
-          ]
+          "enabled_states": ["minecraft:cardinal_direction"]
         }
       },
       "states": {
-        "lpsm_mb:persistent": [
-          true,
-          false
-        ],
-        "lpsm_mb:double": [
-          false,
-          true
-        ]
+        "lpsm_mb:persistent": [true, false],
+        "lpsm_mb:double": [false, true]
       },
       "menu_category": {
         "category": "construction",
@@ -44,28 +36,12 @@
         "culling": "lpsm_assetsplus:vertical_slab"
       },
       "minecraft:collision_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          16.0,
-          16.0,
-          8.0
-        ]
+        "origin": [-8, 0, 0],
+        "size": [16, 16, 8]
       },
       "minecraft:selection_box": {
-        "origin": [
-          -8.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          16.0,
-          16.0,
-          8.0
-        ]
+        "origin": [-8, 0, 0],
+        "size": [16, 16, 8]
       },
       "minecraft:liquid_detection": {
         "detection_rules": [
@@ -77,21 +53,14 @@
       },
       "lpsm_mb:vertical_slab": {
         "double_state": "lpsm_mb:double"
-      },
-      "tag:lpsm_mb:vertical_slab": {},
-      "tag:minecraft:is_hoe_item_destructible": {},
-      "tag:ulkd_ess:tree_leaves_azalea": {}
+      }
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [0, 180, 0]
           }
         }
       },
@@ -99,11 +68,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [0, 0, 0]
           }
         }
       },
@@ -111,11 +76,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [0, 90, 0]
           }
         }
       },
@@ -123,11 +84,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [0, -90, 0]
           }
         }
       },

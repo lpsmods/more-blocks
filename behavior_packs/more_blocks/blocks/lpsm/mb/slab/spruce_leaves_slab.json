@@ -5,20 +5,12 @@
       "identifier": "lpsm_mb:spruce_leaves_slab",
       "traits": {
         "minecraft:placement_position": {
-          "enabled_states": [
-            "minecraft:vertical_half"
-          ]
+          "enabled_states": ["minecraft:vertical_half"]
         }
       },
       "states": {
-        "lpsm_mb:persistent": [
-          true,
-          false
-        ],
-        "lpsm_mb:double": [
-          false,
-          true
-        ]
+        "lpsm_mb:persistent": [true, false],
+        "lpsm_mb:double": [false, true]
       },
       "menu_category": {
         "category": "construction",
@@ -59,10 +51,7 @@
       "lpsm_mb:slab": {
         "double_state": "lpsm_mb:double"
       },
-      "minecraft:flammable": {},
-      "tag:minecraft:slab": {},
-      "tag:is_hoe_item_destructible": {},
-      "tag:ulkd_ess:tree_leaves_spruce": {}
+      "minecraft:flammable": {}
     },
     "permutations": [
       {
@@ -78,28 +67,12 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [
-              -8.0,
-              8.0,
-              -8.0
-            ],
-            "size": [
-              16.0,
-              8.0,
-              16.0
-            ]
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
           },
           "minecraft:selection_box": {
-            "origin": [
-              -8.0,
-              8.0,
-              -8.0
-            ],
-            "size": [
-              16.0,
-              8.0,
-              16.0
-            ]
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
           }
         }
       },
@@ -107,28 +80,12 @@
         "condition": "!q.block_state('lpsm_mb:double')&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:collision_box": {
-            "origin": [
-              -8.0,
-              0.0,
-              -8.0
-            ],
-            "size": [
-              16.0,
-              8.0,
-              16.0
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
           },
           "minecraft:selection_box": {
-            "origin": [
-              -8.0,
-              0.0,
-              -8.0
-            ],
-            "size": [
-              16.0,
-              8.0,
-              16.0
-            ]
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
           }
         }
       }

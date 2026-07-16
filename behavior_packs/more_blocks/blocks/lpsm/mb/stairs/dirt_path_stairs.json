@@ -5,10 +5,8 @@
       "identifier": "lpsm_mb:dirt_path_stairs",
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:corner_and_cardinal_direction"
-          ],
-          "y_rotation_offset": 180.0,
+          "enabled_states": ["minecraft:corner_and_cardinal_direction"],
+          "y_rotation_offset": 180,
           "blocks_to_corner_with": [
             {
               "tags": "q.any_tag('minecraft:cornerable_stairs')"
@@ -74,9 +72,7 @@
           ]
         },
         "minecraft:placement_position": {
-          "enabled_states": [
-            "minecraft:vertical_half"
-          ]
+          "enabled_states": ["minecraft:vertical_half"]
         }
       },
       "menu_category": {
@@ -115,45 +111,26 @@
         "culling": "lpsm_mb:stairs_15"
       },
       "minecraft:selection_box": {
-        "origin": [
-          -8,
-          0,
-          -8
-        ],
-        "size": [
-          16,
-          15,
-          16
-        ]
+        "origin": [-8, 0, -8],
+        "size": [16, 15, 16]
       },
       "minecraft:support": {
         "shape": "stair"
-      },
-      "tag:minecraft:cornerable_stairs": {},
-      "tag:dirt": {},
-      "tag:minecraft:is_shovel_item_destructible": {},
-      "tag:grass": {}
+      }
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [0, -90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "south",
-                  "down"
-                ]
+                "stops_liquid_flowing_from_direction": ["south", "down"]
               }
             ]
           }
@@ -163,21 +140,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [0, 90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "north",
-                  "down"
-                ]
+                "stops_liquid_flowing_from_direction": ["north", "down"]
               }
             ]
           }
@@ -187,21 +157,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [0, 180, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "west",
-                  "down"
-                ]
+                "stops_liquid_flowing_from_direction": ["west", "down"]
               }
             ]
           }
@@ -211,21 +174,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [0, 0, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "east",
-                  "down"
-                ]
+                "stops_liquid_flowing_from_direction": ["east", "down"]
               }
             ]
           }
@@ -235,21 +191,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [180, -90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "south",
-                  "up"
-                ]
+                "stops_liquid_flowing_from_direction": ["south", "up"]
               }
             ]
           }
@@ -259,21 +208,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [180, 90, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "north",
-                  "up"
-                ]
+                "stops_liquid_flowing_from_direction": ["north", "up"]
               }
             ]
           }
@@ -283,21 +225,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [180, 180, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "west",
-                  "up"
-                ]
+                "stops_liquid_flowing_from_direction": ["west", "up"]
               }
             ]
           }
@@ -307,21 +242,14 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [180, 0, 0]
           },
           "minecraft:liquid_detection": {
             "detection_rules": [
               {
                 "can_contain_liquid": true,
                 "liquid_type": "water",
-                "stops_liquid_flowing_from_direction": [
-                  "east",
-                  "up"
-                ]
+                "stops_liquid_flowing_from_direction": ["east", "up"]
               }
             ]
           }
@@ -332,28 +260,12 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                0,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                7,
-                16
-              ]
+              "origin": [0, 0, -8],
+              "size": [8, 7, 16]
             },
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                15,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [8, 15, 16]
             }
           ]
         }
@@ -363,40 +275,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "size": [
-                8,
-                7,
-                8
-              ]
+              "origin": [0, 0, 0],
+              "size": [8, 7, 8]
             },
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                15,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [8, 15, 16]
             },
             {
-              "origin": [
-                0,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                15,
-                8
-              ]
+              "origin": [0, 0, -8],
+              "size": [8, 15, 8]
             }
           ]
         }
@@ -406,40 +294,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                0,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                7,
-                8
-              ]
+              "origin": [0, 0, -8],
+              "size": [8, 7, 8]
             },
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                15,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [8, 15, 16]
             },
             {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "size": [
-                8,
-                15,
-                8
-              ]
+              "origin": [0, 0, 0],
+              "size": [8, 15, 8]
             }
           ]
         }
@@ -449,40 +313,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                0,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                7,
-                16
-              ]
+              "origin": [0, 0, -8],
+              "size": [8, 7, 16]
             },
             {
-              "origin": [
-                -8,
-                0,
-                0
-              ],
-              "size": [
-                8,
-                7,
-                8
-              ]
+              "origin": [-8, 0, 0],
+              "size": [8, 7, 8]
             },
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                15,
-                8
-              ]
+              "origin": [-8, 0, -8],
+              "size": [8, 15, 8]
             }
           ]
         }
@@ -492,40 +332,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                0,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                7,
-                16
-              ]
+              "origin": [0, 0, -8],
+              "size": [8, 7, 16]
             },
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                8,
-                7,
-                8
-              ]
+              "origin": [-8, 0, -8],
+              "size": [8, 7, 8]
             },
             {
-              "origin": [
-                -8,
-                0,
-                0
-              ],
-              "size": [
-                8,
-                15,
-                8
-              ]
+              "origin": [-8, 0, 0],
+              "size": [8, 15, 8]
             }
           ]
         }

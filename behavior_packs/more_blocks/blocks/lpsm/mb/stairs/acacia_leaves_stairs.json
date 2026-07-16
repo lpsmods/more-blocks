@@ -5,10 +5,8 @@
       "identifier": "lpsm_mb:acacia_leaves_stairs",
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": [
-            "minecraft:corner_and_cardinal_direction"
-          ],
-          "y_rotation_offset": 180.0,
+          "enabled_states": ["minecraft:corner_and_cardinal_direction"],
+          "y_rotation_offset": 180,
           "blocks_to_corner_with": [
             {
               "tags": "q.any_tag('minecraft:cornerable_stairs')"
@@ -74,16 +72,11 @@
           ]
         },
         "minecraft:placement_position": {
-          "enabled_states": [
-            "minecraft:vertical_half"
-          ]
+          "enabled_states": ["minecraft:vertical_half"]
         }
       },
       "states": {
-        "lpsm_mb:persistent": [
-          true,
-          false
-        ]
+        "lpsm_mb:persistent": [true, false]
       },
       "menu_category": {
         "category": "construction",
@@ -118,10 +111,7 @@
       },
       "minecraft:tick": {
         "looping": true,
-        "interval_range": [
-          0,
-          0
-        ]
+        "interval_range": [0, 0]
       },
       "minecraft:support": {
         "shape": "stair"
@@ -134,21 +124,14 @@
           }
         ]
       },
-      "minecraft:flammable": {},
-      "tag:minecraft:cornerable_stairs": {},
-      "tag:is_hoe_item_destructible": {},
-      "tag:ulkd_ess:tree_leaves_acacia": {}
+      "minecraft:flammable": {}
     },
     "permutations": [
       {
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [0, -90, 0]
           }
         }
       },
@@ -156,11 +139,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [0, 90, 0]
           }
         }
       },
@@ -168,11 +147,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [0, 180, 0]
           }
         }
       },
@@ -180,11 +155,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'&&q.block_state('minecraft:vertical_half')=='bottom'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [0, 0, 0]
           }
         }
       },
@@ -192,11 +163,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='north'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              -90.0,
-              0.0
-            ]
+            "rotation": [180, -90, 0]
           }
         }
       },
@@ -204,11 +171,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='south'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              90.0,
-              0.0
-            ]
+            "rotation": [180, 90, 0]
           }
         }
       },
@@ -216,11 +179,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='east'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              180.0,
-              0.0
-            ]
+            "rotation": [180, 180, 0]
           }
         }
       },
@@ -228,11 +187,7 @@
         "condition": "q.block_state('minecraft:cardinal_direction')=='west'&&q.block_state('minecraft:vertical_half')=='top'",
         "components": {
           "minecraft:transformation": {
-            "rotation": [
-              180.0,
-              0.0,
-              0.0
-            ]
+            "rotation": [180, 0, 0]
           }
         }
       },
@@ -241,28 +196,12 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                16,
-                8,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16]
             },
             {
-              "origin": [
-                -8,
-                8,
-                -8
-              ],
-              "size": [
-                8,
-                8,
-                16
-              ]
+              "origin": [-8, 8, -8],
+              "size": [8, 8, 16]
             }
           ]
         }
@@ -272,40 +211,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                16,
-                8,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16]
             },
             {
-              "origin": [
-                -8,
-                8,
-                -8
-              ],
-              "size": [
-                8,
-                8,
-                16
-              ]
+              "origin": [-8, 8, -8],
+              "size": [8, 8, 16]
             },
             {
-              "origin": [
-                0,
-                8,
-                0
-              ],
-              "size": [
-                8,
-                8,
-                8
-              ]
+              "origin": [0, 8, 0],
+              "size": [8, 8, 8]
             }
           ]
         }
@@ -315,28 +230,12 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                16,
-                8,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16]
             },
             {
-              "origin": [
-                -8,
-                8,
-                0
-              ],
-              "size": [
-                8,
-                8,
-                8
-              ]
+              "origin": [-8, 8, 0],
+              "size": [8, 8, 8]
             }
           ]
         }
@@ -346,40 +245,16 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                16,
-                8,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16]
             },
             {
-              "origin": [
-                -8,
-                8,
-                -8
-              ],
-              "size": [
-                8,
-                8,
-                16
-              ]
+              "origin": [-8, 8, -8],
+              "size": [8, 8, 16]
             },
             {
-              "origin": [
-                0,
-                8,
-                -8
-              ],
-              "size": [
-                8,
-                8,
-                8
-              ]
+              "origin": [0, 8, -8],
+              "size": [8, 8, 8]
             }
           ]
         }
@@ -389,28 +264,12 @@
         "components": {
           "minecraft:collision_box": [
             {
-              "origin": [
-                -8,
-                0,
-                -8
-              ],
-              "size": [
-                16,
-                8,
-                16
-              ]
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16]
             },
             {
-              "origin": [
-                -8,
-                8,
-                -8
-              ],
-              "size": [
-                8,
-                8,
-                8
-              ]
+              "origin": [-8, 8, -8],
+              "size": [8, 8, 8]
             }
           ]
         }
