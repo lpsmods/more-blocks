@@ -2,11 +2,13 @@
   "name": "more_blocks",
   "private": true,
   "devDependencies": {
+    "@lpsmods/mc-build": "^0.0.1-alpha.1",
     "@minecraft/core-build-tasks": "^5.7.0",
+    "@types/node": "^26.1.1",
     "@types/pako": "^2.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
     "eslint-plugin-minecraft-linting": "^2.0.12",
-    "prettier": "^3.8.3",
+    "prettier": "^3.9.5",
     "source-map": "^0.7.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.0.2"
@@ -23,12 +25,16 @@
   "dependencies": {
     "@lpsmods/mc-common": "0.0.4",
     "@lpsmods/mc-dev": "0.0.4",
-    "@lpsmods/mc-utils": "1.1.0",
+    "@lpsmods/mc-utils": "1.0.1",
     "@minecraft/math": "^2.4.0",
-    "@minecraft/server": "^2.7.0",
-    "@minecraft/server-ui": "^2.0.0",
-    "@minecraft/vanilla-data": "^1.26.21",
+    "@minecraft/server": "^2.8.0",
+    "@minecraft/server-ui": "^2.1.0",
+    "@minecraft/vanilla-data": "^1.26.33",
     "json5": "^2.2.3",
-    "pako": "^2.1.0"
+    "pako": "^2.2.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.1": true
   }
 }

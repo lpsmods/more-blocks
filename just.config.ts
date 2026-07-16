@@ -6,6 +6,7 @@ import {
   bundleTask,
   cleanTask,
   cleanCollateralTask,
+  copyFiles,
   copyTask,
   coreLint,
   mcaddonTask,
@@ -16,24 +17,18 @@ import {
   getOrThrowFromProcess,
   watchTask,
 } from "@minecraft/core-build-tasks";
+import { changelogTask, minifyTask } from "@lpsmods/mc-build";
 import path from "path";
-import fs from "fs";
-import JSON5 from "json5";
+import { buildPacks } from "./build";
 
-function getManifestVersion(): string {
-  const manifestPath = path.resolve(__dirname, `./behavior_packs/${projectName}/manifest.json`);
-  const manifest = JSON5.parse(fs.readFileSync(manifestPath, "utf8"));
-  const version = manifest.header?.version;
-  if (!version) {
-    throw new Error(`Missing header.version in ${manifestPath}`);
-  }
-  return version;
-}
+const stageDir = path.resolve(__dirname, "build");
+const stageBP = path.join(stageDir, "behavior_packs");
+const stageRP = path.join(stageDir, "resource_packs");
 
 // Setup env variables
 setupEnvironment(path.resolve(__dirname, ".env"));
 const projectName = getOrThrowFromProcess("PROJECT_NAME");
-const projectVersion = getManifestVersion();
+const projectVersion = getOrThrowFromProcess("PROJECT_VERSION");
 
 const bundleTaskOptions: BundleTaskParameters = {
   entryPoint: path.join(__dirname, "./scripts/main.ts"),
@@ -45,9 +40,9 @@ const bundleTaskOptions: BundleTaskParameters = {
 };
 
 const copyTaskOptions: CopyTaskParameters = {
-  copyToBehaviorPacks: [`./behavior_packs/${projectName}`],
+  copyToBehaviorPacks: [path.join(stageBP, projectName)],
   copyToScripts: ["./dist/scripts"],
-  copyToResourcePacks: [`./resource_packs/${projectName}`],
+  copyToResourcePacks: [path.join(stageRP, projectName)],
 };
 
 const mcaddonTaskOptions: ZipTaskParameters = {
@@ -61,7 +56,15 @@ task("lint", coreLint(["scripts/**/*.ts"], argv().fix));
 // Build
 task("typescript", tscTask());
 task("bundle", bundleTask(bundleTaskOptions));
-task("build", series("typescript", "bundle"));
+task("stage", () => {
+  copyFiles([path.join(__dirname, "behavior_packs", projectName)], path.join(stageBP, projectName));
+  copyFiles([path.join(__dirname, "resource_packs", projectName)], path.join(stageRP, projectName));
+  copyFiles([path.join(__dirname, "dist", "scripts")], path.join(stageBP, projectName, "scripts"));
+});
+task("generate", () => buildPacks(path.join(stageBP, projectName), path.join(stageRP, projectName)));
+task("minify", minifyTask([path.join(stageBP, projectName), path.join(stageRP, projectName)]));
+task("changelog", changelogTask());
+task("build", series("changelog", "typescript", "bundle", "stage", "generate", "minify"));
 
 // Clean
 task("clean-local", cleanTask(DEFAULT_CLEAN_DIRECTORIES));
