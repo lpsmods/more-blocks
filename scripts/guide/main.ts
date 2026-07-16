@@ -1,7 +1,7 @@
 import { Icon, Pages } from "@lpsmods/mc-common";
 import { blocks } from "./blocks";
 import { items } from "./items";
-import { changelog } from "./changelog";
+import { changelog } from "#changelog";
 
 export const pages: Pages = {
   home: {

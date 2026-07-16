@@ -24,6 +24,7 @@ import { buildPacks } from "./build";
 const stageDir = path.resolve(__dirname, "build");
 const stageBP = path.join(stageDir, "behavior_packs");
 const stageRP = path.join(stageDir, "resource_packs");
+const generatedDir = path.join(stageDir, "generated");
 
 // Setup env variables
 setupEnvironment(path.resolve(__dirname, ".env"));
@@ -37,6 +38,9 @@ const bundleTaskOptions: BundleTaskParameters = {
   minifyWhitespace: true,
   sourcemap: true,
   outputSourcemapPath: path.resolve(__dirname, "./dist/debug"),
+  alias: {
+    "#changelog": path.join(generatedDir, "changelog.ts"),
+  },
 };
 
 const copyTaskOptions: CopyTaskParameters = {
@@ -56,15 +60,26 @@ task("lint", coreLint(["scripts/**/*.ts"], argv().fix));
 // Build
 task("typescript", tscTask());
 task("bundle", bundleTask(bundleTaskOptions));
-task("stage", () => {
+task("stage-packs", () => {
   copyFiles([path.join(__dirname, "behavior_packs", projectName)], path.join(stageBP, projectName));
   copyFiles([path.join(__dirname, "resource_packs", projectName)], path.join(stageRP, projectName));
+});
+task("stage-scripts", () => {
   copyFiles([path.join(__dirname, "dist", "scripts")], path.join(stageBP, projectName, "scripts"));
 });
 task("generate", () => buildPacks(path.join(stageBP, projectName), path.join(stageRP, projectName)));
 task("minify", minifyTask([path.join(stageBP, projectName), path.join(stageRP, projectName)]));
-task("changelog", changelogTask());
-task("build", series("changelog", "typescript", "bundle", "stage", "generate", "minify"));
+task(
+  "changelog",
+  changelogTask({
+    markdownFile: path.join(__dirname, "CHANGELOG.md"),
+    inGameFile: path.join(generatedDir, "changelog.ts"),
+  }),
+);
+task(
+  "build",
+  series("stage-packs", "changelog", "typescript", "bundle", "stage-scripts", "generate", "minify"),
+);
 
 // Clean
 task("clean-local", cleanTask(DEFAULT_CLEAN_DIRECTORIES));
