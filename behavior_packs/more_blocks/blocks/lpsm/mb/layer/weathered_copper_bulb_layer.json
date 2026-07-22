@@ -198,19 +198,6 @@
       {
         "condition": "q.block_state('lpsm_mb:powered') && !q.block_state('lpsm_mb:lit')",
         "components": {
-          "minecraft:geometry": {
-            "identifier": "geometry.lpsm_assetsplus.layer",
-            "bone_visibility": {
-              "layer_1": "q.block_state('lpsm_mb:layers')==1",
-              "layer_2": "q.block_state('lpsm_mb:layers')==2",
-              "layer_3": "q.block_state('lpsm_mb:layers')==3",
-              "layer_4": "q.block_state('lpsm_mb:layers')==4",
-              "layer_5": "q.block_state('lpsm_mb:layers')==5",
-              "layer_6": "q.block_state('lpsm_mb:layers')==6",
-              "layer_7": "q.block_state('lpsm_mb:layers')==7"
-            },
-            "culling": "lpsm_assetsplus:layer"
-          },
           "minecraft:material_instances": {
             "*": {
               "texture": "minecraft:weathered_copper_bulb_powered"
@@ -221,19 +208,6 @@
       {
         "condition": "q.block_state('lpsm_mb:powered') && q.block_state('lpsm_mb:lit')",
         "components": {
-          "minecraft:geometry": {
-            "identifier": "geometry.lpsm_assetsplus.layer",
-            "bone_visibility": {
-              "layer_1": "q.block_state('lpsm_mb:layers')==1",
-              "layer_2": "q.block_state('lpsm_mb:layers')==2",
-              "layer_3": "q.block_state('lpsm_mb:layers')==3",
-              "layer_4": "q.block_state('lpsm_mb:layers')==4",
-              "layer_5": "q.block_state('lpsm_mb:layers')==5",
-              "layer_6": "q.block_state('lpsm_mb:layers')==6",
-              "layer_7": "q.block_state('lpsm_mb:layers')==7"
-            },
-            "culling": "lpsm_assetsplus:layer"
-          },
           "minecraft:material_instances": {
             "*": {
               "texture": "minecraft:weathered_copper_bulb_lit_powered"
@@ -244,19 +218,6 @@
       {
         "condition": "!q.block_state('lpsm_mb:powered') && q.block_state('lpsm_mb:lit')",
         "components": {
-          "minecraft:geometry": {
-            "identifier": "geometry.lpsm_assetsplus.layer",
-            "bone_visibility": {
-              "layer_1": "q.block_state('lpsm_mb:layers')==1",
-              "layer_2": "q.block_state('lpsm_mb:layers')==2",
-              "layer_3": "q.block_state('lpsm_mb:layers')==3",
-              "layer_4": "q.block_state('lpsm_mb:layers')==4",
-              "layer_5": "q.block_state('lpsm_mb:layers')==5",
-              "layer_6": "q.block_state('lpsm_mb:layers')==6",
-              "layer_7": "q.block_state('lpsm_mb:layers')==7"
-            },
-            "culling": "lpsm_assetsplus:layer"
-          },
           "minecraft:material_instances": {
             "*": {
               "texture": "minecraft:weathered_copper_bulb_lit"

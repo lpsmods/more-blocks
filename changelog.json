@@ -8,10 +8,10 @@
         "title": "General",
         "list": [
           "Requires Assets+ v2.0.1",
-          "Updated for Minecraft 26.21",
+          "Updated for Minecraft 26.33",
           "Added compatibility with Vibrant Visuals.",
           "Blocks can now be waterlogged.",
-          "Changed ids to `lpsm_mb`"
+          "Changed ids to 'lpsm_mb'"
         ]
       },
       { "title": "New", "list": ["Added a guide book."] }
@@ -27,7 +27,7 @@
         "list": [
           "Requires Assets+ v1.8.0",
           "Updated for 1.21.50",
-          "Changed `#moreblocks` suffix to `@moreblocks`",
+          "Changed '#moreblocks' suffix to '@moreblocks'",
           "Added support for any language (translations may not be accurate)."
         ]
       },

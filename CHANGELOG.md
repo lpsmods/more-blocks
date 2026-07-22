@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Updated for Minecraft 26.21
 - Added compatibility with Vibrant Visuals.
 - Blocks can now be waterlogged.
-- Changed ids to `lpsm_mb`
+- Changed ids to 'lpsm_mb'
 
 ### Added
 
@@ -24,7 +24,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - Requires Assets+ v1.8.0
 - Updated for 1.21.50
-- Changed `#moreblocks` suffix to `@moreblocks`
+- Changed '#moreblocks' suffix to '@moreblocks'
 - Added support for any language (translations may not be accurate).
 
 ### Added

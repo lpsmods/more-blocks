@@ -28,10 +28,10 @@
         ]
       },
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 1.2
+        "seconds_to_destroy": 1.5
       },
       "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 1.2
+        "explosion_resistance": 6
       },
       "minecraft:geometry": {
         "identifier": "geometry.lpsm_assetsplus.layer",

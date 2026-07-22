@@ -7,5 +7,13 @@
       "envManager": "ms-python.python:venv",
       "packageManager": "ms-python.python:pip"
     }
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "changelog.json"
+      ],
+      "url": "https://raw.githubusercontent.com/lpsmods/minecraft-scripting-libraries/refs/heads/main/libraries/mc-build/changelog.schema.json"
+    }
   ]
 }

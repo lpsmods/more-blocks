@@ -1,4 +1,3 @@
-// From: https://github.com/microsoft/minecraft-samples/blob/main/addon_starter/1_hello_world/just.config.ts
 import { argv, parallel, series, task, tscTask } from "just-scripts";
 import {
   BundleTaskParameters,
