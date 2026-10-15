@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height10",
-    "textures": {
-        "side": "minecraft:block/polished_basalt_side",
-        "end": "minecraft:block/polished_basalt_top"
-    }
-}

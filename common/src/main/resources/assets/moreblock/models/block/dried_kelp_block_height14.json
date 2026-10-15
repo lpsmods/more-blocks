@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height14",
-    "textures": {
-        "side": "minecraft:block/dried_kelp_side",
-        "top": "minecraft:block/dried_kelp_top",
-        "bottom": "minecraft:block/dried_kelp_bottom"
-    }
-}

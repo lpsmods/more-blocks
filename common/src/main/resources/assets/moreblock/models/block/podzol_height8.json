@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height8",
-    "textures": {
-        "side": "minecraft:block/podzol_side",
-        "top": "minecraft:block/podzol_top",
-        "bottom": "minecraft:block/dirt"
-    }
-}

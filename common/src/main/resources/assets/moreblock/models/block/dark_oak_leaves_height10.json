@@ -1,6 +1,0 @@
-{
-    "parent": "moreblock:block/layer_leaves_height10",
-    "textures": {
-        "all": "minecraft:block/dark_oak_leaves"
-    }
-}

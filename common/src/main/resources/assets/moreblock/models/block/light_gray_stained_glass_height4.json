@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height4",
-    "textures": {
-        "end": "minecraft:block/light_gray_stained_glass",
-        "side": "moreblock:block/light_gray_stained_glass_height4"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "moreblock:block/layer_bottom_top_height4",
-    "textures": {
-        "side": "minecraft:block/sculk_catalyst_side",
-        "top": "minecraft:block/sculk_catalyst_top",
-        "bottom": "minecraft:block/sculk_catalyst_bottom"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "moreblock:block/layer_column_height12",
-    "textures": {
-        "side": "minecraft:block/muddy_mangrove_roots_side",
-        "end": "minecraft:block/muddy_mangrove_roots_top"
-    }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "moreblock:block/layer_all_height14",
-    "textures": {
-        "all": "minecraft:block/red_terracotta"
-    }
-}
