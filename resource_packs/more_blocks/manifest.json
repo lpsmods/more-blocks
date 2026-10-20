@@ -5,7 +5,7 @@
     "name": "pack.name",
     "uuid": "4791d53e-88de-49f6-846b-a2cbe7508032",
     "version": "2.0.0",
-    "min_engine_version": [1, 26, 33]
+    "min_engine_version": [1, 26, 50]
   },
   "metadata": { "authors": ["Legopitstop"], "license": "https://license.lpsmods.dev", "url": "https://lpsmods.dev" },
   "modules": [

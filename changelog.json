@@ -1,4 +1,55 @@
 {
+  "2.1.0": {
+    "title": "2.1.0",
+    "date": "2026-00-00",
+    "author": "legopitstop",
+    "categories": [
+      {
+        "title": "General",
+        "list": [
+          "Updated for Minecraft 26.50",
+          "Requires Assets+ 2.0.3",
+          "Concrete stairs and slabs will now migrate to vanilla blocks.",
+          "All wood and log blocks can be used as fuel."
+        ]
+      },
+      {
+        "title": "New",
+        "list": [
+          "Poplar Vertical Slab",
+          "Poplar Layer",
+          "Poplar Log Stairs",
+          "Poplar Log Slab",
+          "Poplar Log Vertical Slab",
+          "Poplar Log Layer",
+          "Stripped Poplar Log Stairs",
+          "Stripped Poplar Log Slab",
+          "Stripped Poplar Log Vertical Slab",
+          "Stripped Poplar Log Layer",
+          "Poplar Wood Stairs",
+          "Poplar Wood Slab",
+          "Poplar Wood Vertical Slab",
+          "Poplar Wood Layer",
+          "Stripped Poplar Wood Stairs",
+          "Stripped Poplar Wood Slab",
+          "Stripped Poplar Wood Vertical Slab",
+          "Stripped Poplar Wood Layer",
+          "Red Poplar Leaves Stairs",
+          "Red Poplar Leaves Slab",
+          "Red Poplar Leaves Vertical Slab",
+          "Red Poplar Leaves Layer",
+          "Orange Poplar Leaves Stairs",
+          "Orange Poplar Leaves Slab",
+          "Orange Poplar Leaves Vertical Slab",
+          "Orange Poplar Leaves Layer",
+          "Yellow Poplar Leaves Stairs",
+          "Yellow Poplar Leaves Slab",
+          "Yellow Poplar Leaves Vertical Slab",
+          "Yellow Poplar Leaves Layer"
+        ]
+      }
+    ]
+  },
   "2.0.0": {
     "title": "2.0.0",
     "date": "2026-07-21",
@@ -7,7 +58,7 @@
       {
         "title": "General",
         "list": [
-          "Requires Assets+ v2.0.1",
+          "Requires Assets+ v2.0.2",
           "Updated for Minecraft 26.33",
           "Added compatibility with Vibrant Visuals.",
           "Blocks can now be waterlogged.",

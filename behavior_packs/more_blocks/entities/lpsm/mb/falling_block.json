@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.10",
+  "format_version": "1.26.50",
   "minecraft:entity": {
     "description": {
       "identifier": "lpsm_mb:falling_block",

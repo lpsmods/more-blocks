@@ -1,4 +1,14 @@
-import { emitJson, lootPool, lootTable, recipeShaped, recipeStonecutter, type Ingredient } from "@lpsmods/mc-build";
+import {
+  Block,
+  emitJson,
+  Item,
+  item,
+  lootPool,
+  lootTable,
+  recipeShaped,
+  recipeStonecutter,
+  type Ingredient,
+} from "@lpsmods/mc-build";
 import fs from "fs";
 import path from "path";
 import JSON5 from "json5";
@@ -10,6 +20,7 @@ const PATH_ID = PROJECT_ID.replaceAll("_", path.sep);
 let BP: string;
 let RP: string;
 let BLOCKS_PATH: string;
+let ITEMS_PATH: string;
 let RECIPES_PATH: string;
 let LOOT_TABLES_PATH: string;
 
@@ -120,16 +131,17 @@ const ITEM_ALIASES: Record<string, string> = {
 };
 const WOOD_ITEMS = new Set([
   "acacia",
-  "pale_oak",
-  "oak",
-  "dark_oak",
-  "warped",
-  "crimson",
-  "spruce",
   "birch",
-  "mangrove",
   "cherry",
+  "crimson",
+  "dark_oak",
   "jungle",
+  "mangrove",
+  "oak",
+  "pale_oak",
+  "poplar",
+  "spruce",
+  "warped",
 ]);
 
 function toItem(id: string): string {
@@ -214,16 +226,17 @@ function buildObtainFiles(): void {
 }
 
 const WOOD_TYPES = [
-  "spruce",
-  "birch",
-  "jungle",
   "acacia",
-  "dark_oak",
-  "mangrove",
-  "cherry",
-  "pale_oak",
-  "oak",
   "bamboo",
+  "birch",
+  "cherry",
+  "dark_oak",
+  "jungle",
+  "mangrove",
+  "oak",
+  "pale_oak",
+  "poplar",
+  "spruce",
 ];
 
 function includesAny(value: string, names: string[]): boolean {
@@ -242,37 +255,37 @@ function buildTags(): void {
     Object.keys(components)
       .filter((key) => key.startsWith("tag:"))
       .forEach((key) => delete components[key]);
-    const tag = (name: string): void => {
-      components[`tag:${name}`] = {};
-    };
 
-    if (id.includes("wool")) tag("minecraft:is_shears_item_destructible");
-    if (id.endsWith("_stairs")) tag("minecraft:cornerable_stairs");
-    if (id.endsWith("_slab") && !id.includes("vertical_slab")) tag("minecraft:slab");
-    if (id.endsWith("_vertical_slab")) tag(`${PROJECT_ID}:vertical_slab`);
-    if (id.endsWith("layer")) tag(`${PROJECT_ID}:layer`);
+    const tags = new Set();
+
+    if (id.includes("wool")) tags.add("minecraft:is_shears_item_destructible");
+    if (id.endsWith("_stairs")) tags.add("minecraft:cornerable_stairs");
+    if (id.endsWith("_slab") && !id.includes("vertical_slab")) tags.add("minecraft:slab");
+    if (id.endsWith("_vertical_slab")) tags.add(`${PROJECT_ID}:vertical_slab`);
+    if (id.endsWith("layer")) tags.add(`${PROJECT_ID}:layer`);
     if (includesAny(id, ["dirt", "farmland", "grass_block", "moss_block", "mycelium", "podzol"])) {
-      tag("dirt");
-      tag("minecraft:is_shovel_item_destructible");
+      tags.add("dirt");
+      tags.add("minecraft:is_shovel_item_destructible");
     }
-    if (includesAny(id, ["dirt", "grass_block", "path"])) tag("grass");
+    if (includesAny(id, ["dirt", "grass_block", "path"])) tags.add("grass");
     if (id.includes("gravel")) {
-      tag("gravel");
-      tag("minecraft:is_shovel_item_destructible");
+      tags.add("gravel");
+      tags.add("minecraft:is_shovel_item_destructible");
     }
-    if (id.includes("_log_")) tag("log");
-    if (includesAny(id, ["copper", "iron", "gold"])) tag("metal");
-    if (id.includes("bedrock")) tag("not_feature_replaceable");
+    if (id.includes("_log_")) tags.add("log");
+    if (includesAny(id, ["copper", "iron", "gold"])) tags.add("metal");
+    if (id.includes("bedrock")) tags.add("not_feature_replaceable");
     if (id.includes("pumpkin")) {
-      tag("pumpkin");
-      tag("minecraft:is_axe_item_destructible");
+      tags.add("pumpkin");
+      tags.add("minecraft:is_axe_item_destructible");
     }
     if (!id.includes("sandstone") && includesAny(id, ["red_sand", "sand"])) {
-      tag("sand");
-      tag("minecraft:is_shovel_item_destructible");
+      tags.add("sand");
+      tags.add("minecraft:is_shovel_item_destructible");
     }
-    if (includesAny(id, ["diamond", "emerald", "gold", "redstone_ore"])) tag("minecraft:iron_tier_destructible");
-    if (includesAny(id, ["ancient_debris", "obsidian", "netherite_block"])) tag("minecraft:diamond_tier_destructible");
+    if (includesAny(id, ["diamond", "emerald", "gold", "redstone_ore"])) tags.add("minecraft:iron_tier_destructible");
+    if (includesAny(id, ["ancient_debris", "obsidian", "netherite_block"]))
+      tags.add("minecraft:diamond_tier_destructible");
     if (
       includesAny(id, [
         "dried_kelp",
@@ -289,13 +302,13 @@ function buildTags(): void {
         "target",
       ])
     )
-      tag("minecraft:is_hoe_item_destructible");
+      tags.add("minecraft:is_hoe_item_destructible");
     if (
       includesAny(id, ["concrete_powder", "clay_", "mud", "soul_soil", "snow"]) &&
       !id.includes("sandstone") &&
       !id.includes("packed_mud")
     )
-      tag("minecraft:is_shovel_item_destructible");
+      tags.add("minecraft:is_shovel_item_destructible");
     const pickaxe = [
       "concrete",
       "ancient_debris",
@@ -340,26 +353,34 @@ function buildTags(): void {
       "brick",
       "obsidian",
     ];
-    if (includesAny(id, pickaxe) && !id.includes("concrete_powder")) tag("minecraft:is_pickaxe_item_destructible");
+    if (includesAny(id, pickaxe) && !id.includes("concrete_powder")) tags.add("minecraft:is_pickaxe_item_destructible");
     if (includesAny(id, ["bookshelf", "warped", "crimson", "hyphae", "stem", "mushroom", "melon"]))
-      tag("minecraft:is_axe_item_destructible");
+      tags.add("minecraft:is_axe_item_destructible");
     if (includesAny(id, WOOD_TYPES)) {
       components["minecraft:flammable"] = {};
-      if (id.includes("leaves")) tag("is_hoe_item_destructible");
+      if (id.includes("leaves")) tags.add("is_hoe_item_destructible");
       else {
-        tag("wood");
-        tag("is_axe_item_destructible");
+        tags.add("wood");
+        tags.add("is_axe_item_destructible");
       }
     }
-    for (const wood of WOOD_TYPES) if (id.includes(`${wood}_log`)) tag(wood);
-    if (id.includes("_ore")) tag(`ulkd_ess:ore_${material.replace("_ore", "")}`);
-    if (id.includes("_leaves")) tag(`ulkd_ess:tree_leaves_${material.replace("_leaves", "")}`);
-    if (id.includes("_log")) tag(`ulkd_ess:tree_log_${material.replace("_log", "")}`);
+    for (const wood of WOOD_TYPES) if (id.includes(`${wood}_log`)) tags.add(wood);
+    if (id.includes("_ore")) tags.add(`ulkd_ess:ore_${material.replace("_ore", "")}`);
+    if (id.includes("_leaves")) {
+      tags.add(`ulkd_ess:tree_leaves_${material.replace("_leaves", "")}`);
+      tags.add("minecraft:leaves");
+    }
+    if (id.includes("_log")) tags.add(`ulkd_ess:tree_log_${material.replace("_log", "")}`);
     if (
       !Object.keys(components).some((key) => key.includes("item_destructible")) &&
       !includesAny(id, ["bedrock", "honeycomb", "honey", "slime", "froglight"])
-    )
+    ) {
       missing.push(filepath);
+    }
+
+    // Add tags
+    components["minecraft:tags"] = Array.from(tags);
+
     writeJson(filepath, data);
   }
   if (missing.length) console.warn(`No item destructible:\n${missing.map((file) => `- ${file}`).join("\n")}`);
@@ -404,10 +425,78 @@ function buildTexts(): void {
   }
 }
 
+function addPlacer(item: Item, id: string): Item {
+  item.format_version = "1.26.50";
+  if (!item) return item;
+  item["minecraft:item"].components ??= {};
+  item["minecraft:item"].components["minecraft:block_placer"] = { block: id, replace_block_item: true };
+  return item;
+}
+
+function getItemGroup(variant: string): string | undefined {
+  switch (variant) {
+    case "layer":
+      return "lpsm_mb:itemGroup.name.layer";
+    case "stairs":
+      return "minecraft:itemGroup.name.stairs";
+    case "slab":
+      return "minecraft:itemGroup.name.slab";
+    case "vertical_slab":
+      return "lpsm_mb:itemGroup.name.verticalSlab";
+  }
+  return undefined;
+}
+
+function writeFuelItem(name: string, identifier: string, duration: number, itemGroup?: string): void {
+  let content = item(identifier)
+    .component("minecraft:fuel", { duration })
+    .displayName(`tile.${identifier}.name`)
+    .menuCategory("construction", itemGroup)
+    .build();
+  addPlacer(content, identifier);
+  writeJson(path.join(ITEMS_PATH, "blocks", `${name}.json`), content);
+}
+
+function buildFuelItems(): void {
+  const variants = ["layer", "stairs", "slab", "vertical_slab"];
+  for (const wood of WOOD_TYPES) {
+    for (const variant of variants) {
+      const duration = 20 / 1.5; // Smelts ~1.5 items
+      const itemGroup = getItemGroup(variant);
+      // Log
+      let name = wood === "bamboo" ? `bamboo_block_${variant}` : `${wood}_log_${variant}`;
+      writeFuelItem(name, `${PROJECT_ID}:${name}`, duration, itemGroup);
+
+      // Stripped Log
+      name = wood === "bamboo" ? `stripped_bamboo_block_${variant}` : `stripped_${wood}_log_${variant}`;
+      writeFuelItem(name, `${PROJECT_ID}:${name}`, duration, itemGroup);
+
+      if (wood !== "bamboo") {
+        // Wood
+        name = `${wood}_wood_${variant}`;
+        writeFuelItem(name, `${PROJECT_ID}:${name}`, duration, itemGroup);
+
+        // Stripped Wood
+        name = `stripped_${wood}_wood_${variant}`;
+        writeFuelItem(name, `${PROJECT_ID}:${name}`, duration, itemGroup);
+      }
+
+      if (["stairs", "slab"].includes(variant)) continue;
+      // Planks
+      name = `${wood}_${variant}`;
+      writeFuelItem(name, `${PROJECT_ID}:${name}`, duration, itemGroup);
+    }
+  }
+}
+
+// TODO: Build composable items
+function buildComposableItems(): void {}
+
 export function buildPacks(behaviorPackPath: string, resourcePackPath: string): void {
   BP = path.resolve(behaviorPackPath);
   RP = path.resolve(resourcePackPath);
   BLOCKS_PATH = path.join(BP, "blocks", PATH_ID);
+  ITEMS_PATH = path.join(BP, "items", PATH_ID);
   RECIPES_PATH = path.join(BP, "recipes", PATH_ID);
   LOOT_TABLES_PATH = path.join(BP, "loot_tables", PATH_ID);
 
@@ -415,4 +504,6 @@ export function buildPacks(behaviorPackPath: string, resourcePackPath: string): 
   buildObtainFiles();
   buildTags();
   buildTexts();
+  buildFuelItems();
+  buildComposableItems();
 }

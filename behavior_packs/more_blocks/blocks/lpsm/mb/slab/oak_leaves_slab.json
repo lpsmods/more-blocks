@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.10",
+  "format_version": "1.26.50",
   "minecraft:block": {
     "description": {
       "identifier": "lpsm_mb:oak_leaves_slab",
@@ -18,6 +18,9 @@
       }
     },
     "components": {
+      "minecraft:sound": {
+        "sound": "grass"
+      },
       "minecraft:light_dampening": 0,
       "minecraft:liquid_detection": {
         "detection_rules": [
