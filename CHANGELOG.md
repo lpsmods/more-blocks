@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.0] - 2026-15-09
+## [2.1.0] - 2026-00-00
 
 ### Changed
 
 - Updated for Minecraft 26.50
 - Requires Assets+ 2.0.3
 - Concrete stairs and slabs will now migrate to vanilla blocks.
+- All wood and log blocks can be used as fuel.
 
 ### Added
 
